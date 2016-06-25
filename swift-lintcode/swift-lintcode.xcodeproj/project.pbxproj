@@ -7,50 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		654C0FDA1D1E8F55007F1EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C0FD91D1E8F55007F1EA1 /* main.m */; };
-		654C0FDD1D1E8F55007F1EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C0FDC1D1E8F55007F1EA1 /* AppDelegate.m */; };
-		654C0FE01D1E8F55007F1EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C0FDF1D1E8F55007F1EA1 /* ViewController.m */; };
-		654C0FE31D1E8F55007F1EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C0FE11D1E8F55007F1EA1 /* Main.storyboard */; };
-		654C0FE51D1E8F55007F1EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654C0FE41D1E8F55007F1EA1 /* Assets.xcassets */; };
-		654C0FE81D1E8F55007F1EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C0FE61D1E8F55007F1EA1 /* LaunchScreen.storyboard */; };
-		654C0FF31D1E8F55007F1EA1 /* swift_lintcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654C0FF21D1E8F55007F1EA1 /* swift_lintcodeTests.m */; };
+		654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C103A1D1E9027007F1EA1 /* AppDelegate.swift */; };
+		654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C103C1D1E9027007F1EA1 /* ViewController.swift */; };
+		654C10401D1E9027007F1EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C103E1D1E9027007F1EA1 /* Main.storyboard */; };
+		654C10421D1E9027007F1EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654C10411D1E9027007F1EA1 /* Assets.xcassets */; };
+		654C10451D1E9027007F1EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */; };
+		654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		654C0FEF1D1E8F55007F1EA1 /* PBXContainerItemProxy */ = {
+		654C104C1D1E9027007F1EA1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 654C0FCD1D1E8F55007F1EA1 /* Project object */;
+			containerPortal = 654C102F1D1E9027007F1EA1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 654C0FD41D1E8F55007F1EA1;
+			remoteGlobalIDString = 654C10361D1E9027007F1EA1;
 			remoteInfo = "swift-lintcode";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		654C0FD51D1E8F55007F1EA1 /* swift-lintcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-lintcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		654C0FD91D1E8F55007F1EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		654C0FDB1D1E8F55007F1EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		654C0FDC1D1E8F55007F1EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		654C0FDE1D1E8F55007F1EA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		654C0FDF1D1E8F55007F1EA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		654C0FE21D1E8F55007F1EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		654C0FE41D1E8F55007F1EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		654C0FE71D1E8F55007F1EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		654C0FE91D1E8F55007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		654C0FEE1D1E8F55007F1EA1 /* swift-lintcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-lintcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		654C0FF21D1E8F55007F1EA1 /* swift_lintcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = swift_lintcodeTests.m; sourceTree = "<group>"; };
-		654C0FF41D1E8F55007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654C10371D1E9027007F1EA1 /* swift-lintcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-lintcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C103A1D1E9027007F1EA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		654C103C1D1E9027007F1EA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		654C103F1D1E9027007F1EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654C10411D1E9027007F1EA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654C10441D1E9027007F1EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654C10461D1E9027007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654C104B1D1E9027007F1EA1 /* swift-lintcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-lintcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_lintcodeTests.swift; sourceTree = "<group>"; };
+		654C10511D1E9027007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		654C0FD21D1E8F55007F1EA1 /* Frameworks */ = {
+		654C10341D1E9027007F1EA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654C0FEB1D1E8F55007F1EA1 /* Frameworks */ = {
+		654C10481D1E9027007F1EA1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,53 +56,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		654C0FCC1D1E8F55007F1EA1 = {
+		654C102E1D1E9027007F1EA1 = {
 			isa = PBXGroup;
 			children = (
-				654C0FD71D1E8F55007F1EA1 /* swift-lintcode */,
-				654C0FF11D1E8F55007F1EA1 /* swift-lintcodeTests */,
-				654C0FD61D1E8F55007F1EA1 /* Products */,
+				654C10391D1E9027007F1EA1 /* swift-lintcode */,
+				654C104E1D1E9027007F1EA1 /* swift-lintcodeTests */,
+				654C10381D1E9027007F1EA1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		654C0FD61D1E8F55007F1EA1 /* Products */ = {
+		654C10381D1E9027007F1EA1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				654C0FD51D1E8F55007F1EA1 /* swift-lintcode.app */,
-				654C0FEE1D1E8F55007F1EA1 /* swift-lintcodeTests.xctest */,
+				654C10371D1E9027007F1EA1 /* swift-lintcode.app */,
+				654C104B1D1E9027007F1EA1 /* swift-lintcodeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		654C0FD71D1E8F55007F1EA1 /* swift-lintcode */ = {
+		654C10391D1E9027007F1EA1 /* swift-lintcode */ = {
 			isa = PBXGroup;
 			children = (
-				654C0FDB1D1E8F55007F1EA1 /* AppDelegate.h */,
-				654C0FDC1D1E8F55007F1EA1 /* AppDelegate.m */,
-				654C0FDE1D1E8F55007F1EA1 /* ViewController.h */,
-				654C0FDF1D1E8F55007F1EA1 /* ViewController.m */,
-				654C0FE11D1E8F55007F1EA1 /* Main.storyboard */,
-				654C0FE41D1E8F55007F1EA1 /* Assets.xcassets */,
-				654C0FE61D1E8F55007F1EA1 /* LaunchScreen.storyboard */,
-				654C0FE91D1E8F55007F1EA1 /* Info.plist */,
-				654C0FD81D1E8F55007F1EA1 /* Supporting Files */,
+				654C103A1D1E9027007F1EA1 /* AppDelegate.swift */,
+				654C103C1D1E9027007F1EA1 /* ViewController.swift */,
+				654C103E1D1E9027007F1EA1 /* Main.storyboard */,
+				654C10411D1E9027007F1EA1 /* Assets.xcassets */,
+				654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */,
+				654C10461D1E9027007F1EA1 /* Info.plist */,
 			);
 			path = "swift-lintcode";
 			sourceTree = "<group>";
 		};
-		654C0FD81D1E8F55007F1EA1 /* Supporting Files */ = {
+		654C104E1D1E9027007F1EA1 /* swift-lintcodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				654C0FD91D1E8F55007F1EA1 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		654C0FF11D1E8F55007F1EA1 /* swift-lintcodeTests */ = {
-			isa = PBXGroup;
-			children = (
-				654C0FF21D1E8F55007F1EA1 /* swift_lintcodeTests.m */,
-				654C0FF41D1E8F55007F1EA1 /* Info.plist */,
+				654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */,
+				654C10511D1E9027007F1EA1 /* Info.plist */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -114,13 +99,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		654C0FD41D1E8F55007F1EA1 /* swift-lintcode */ = {
+		654C10361D1E9027007F1EA1 /* swift-lintcode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654C0FF71D1E8F55007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcode" */;
+			buildConfigurationList = 654C10541D1E9027007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcode" */;
 			buildPhases = (
-				654C0FD11D1E8F55007F1EA1 /* Sources */,
-				654C0FD21D1E8F55007F1EA1 /* Frameworks */,
-				654C0FD31D1E8F55007F1EA1 /* Resources */,
+				654C10331D1E9027007F1EA1 /* Sources */,
+				654C10341D1E9027007F1EA1 /* Frameworks */,
+				654C10351D1E9027007F1EA1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,46 +113,47 @@
 			);
 			name = "swift-lintcode";
 			productName = "swift-lintcode";
-			productReference = 654C0FD51D1E8F55007F1EA1 /* swift-lintcode.app */;
+			productReference = 654C10371D1E9027007F1EA1 /* swift-lintcode.app */;
 			productType = "com.apple.product-type.application";
 		};
-		654C0FED1D1E8F55007F1EA1 /* swift-lintcodeTests */ = {
+		654C104A1D1E9027007F1EA1 /* swift-lintcodeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 654C0FFA1D1E8F55007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcodeTests" */;
+			buildConfigurationList = 654C10571D1E9027007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcodeTests" */;
 			buildPhases = (
-				654C0FEA1D1E8F55007F1EA1 /* Sources */,
-				654C0FEB1D1E8F55007F1EA1 /* Frameworks */,
-				654C0FEC1D1E8F55007F1EA1 /* Resources */,
+				654C10471D1E9027007F1EA1 /* Sources */,
+				654C10481D1E9027007F1EA1 /* Frameworks */,
+				654C10491D1E9027007F1EA1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				654C0FF01D1E8F55007F1EA1 /* PBXTargetDependency */,
+				654C104D1D1E9027007F1EA1 /* PBXTargetDependency */,
 			);
 			name = "swift-lintcodeTests";
 			productName = "swift-lintcodeTests";
-			productReference = 654C0FEE1D1E8F55007F1EA1 /* swift-lintcodeTests.xctest */;
+			productReference = 654C104B1D1E9027007F1EA1 /* swift-lintcodeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		654C0FCD1D1E8F55007F1EA1 /* Project object */ = {
+		654C102F1D1E9027007F1EA1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Core Apps Pty Ltd";
 				TargetAttributes = {
-					654C0FD41D1E8F55007F1EA1 = {
+					654C10361D1E9027007F1EA1 = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					654C0FED1D1E8F55007F1EA1 = {
+					654C104A1D1E9027007F1EA1 = {
 						CreatedOnToolsVersion = 7.3;
-						TestTargetID = 654C0FD41D1E8F55007F1EA1;
+						TestTargetID = 654C10361D1E9027007F1EA1;
 					};
 				};
 			};
-			buildConfigurationList = 654C0FD01D1E8F55007F1EA1 /* Build configuration list for PBXProject "swift-lintcode" */;
+			buildConfigurationList = 654C10321D1E9027007F1EA1 /* Build configuration list for PBXProject "swift-lintcode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -175,29 +161,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 654C0FCC1D1E8F55007F1EA1;
-			productRefGroup = 654C0FD61D1E8F55007F1EA1 /* Products */;
+			mainGroup = 654C102E1D1E9027007F1EA1;
+			productRefGroup = 654C10381D1E9027007F1EA1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				654C0FD41D1E8F55007F1EA1 /* swift-lintcode */,
-				654C0FED1D1E8F55007F1EA1 /* swift-lintcodeTests */,
+				654C10361D1E9027007F1EA1 /* swift-lintcode */,
+				654C104A1D1E9027007F1EA1 /* swift-lintcodeTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		654C0FD31D1E8F55007F1EA1 /* Resources */ = {
+		654C10351D1E9027007F1EA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654C0FE81D1E8F55007F1EA1 /* LaunchScreen.storyboard in Resources */,
-				654C0FE51D1E8F55007F1EA1 /* Assets.xcassets in Resources */,
-				654C0FE31D1E8F55007F1EA1 /* Main.storyboard in Resources */,
+				654C10451D1E9027007F1EA1 /* LaunchScreen.storyboard in Resources */,
+				654C10421D1E9027007F1EA1 /* Assets.xcassets in Resources */,
+				654C10401D1E9027007F1EA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654C0FEC1D1E8F55007F1EA1 /* Resources */ = {
+		654C10491D1E9027007F1EA1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,47 +193,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		654C0FD11D1E8F55007F1EA1 /* Sources */ = {
+		654C10331D1E9027007F1EA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654C0FE01D1E8F55007F1EA1 /* ViewController.m in Sources */,
-				654C0FDD1D1E8F55007F1EA1 /* AppDelegate.m in Sources */,
-				654C0FDA1D1E8F55007F1EA1 /* main.m in Sources */,
+				654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */,
+				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		654C0FEA1D1E8F55007F1EA1 /* Sources */ = {
+		654C10471D1E9027007F1EA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654C0FF31D1E8F55007F1EA1 /* swift_lintcodeTests.m in Sources */,
+				654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		654C0FF01D1E8F55007F1EA1 /* PBXTargetDependency */ = {
+		654C104D1D1E9027007F1EA1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 654C0FD41D1E8F55007F1EA1 /* swift-lintcode */;
-			targetProxy = 654C0FEF1D1E8F55007F1EA1 /* PBXContainerItemProxy */;
+			target = 654C10361D1E9027007F1EA1 /* swift-lintcode */;
+			targetProxy = 654C104C1D1E9027007F1EA1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		654C0FE11D1E8F55007F1EA1 /* Main.storyboard */ = {
+		654C103E1D1E9027007F1EA1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				654C0FE21D1E8F55007F1EA1 /* Base */,
+				654C103F1D1E9027007F1EA1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		654C0FE61D1E8F55007F1EA1 /* LaunchScreen.storyboard */ = {
+		654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				654C0FE71D1E8F55007F1EA1 /* Base */,
+				654C10441D1E9027007F1EA1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -255,7 +240,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		654C0FF51D1E8F55007F1EA1 /* Debug */ = {
+		654C10521D1E9027007F1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,11 +281,12 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		654C0FF61D1E8F55007F1EA1 /* Release */ = {
+		654C10531D1E9027007F1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -339,7 +325,7 @@
 			};
 			name = Release;
 		};
-		654C0FF81D1E8F55007F1EA1 /* Debug */ = {
+		654C10551D1E9027007F1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -350,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		654C0FF91D1E8F55007F1EA1 /* Release */ = {
+		654C10561D1E9027007F1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -361,7 +347,7 @@
 			};
 			name = Release;
 		};
-		654C0FFB1D1E8F55007F1EA1 /* Debug */ = {
+		654C10581D1E9027007F1EA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		654C0FFC1D1E8F55007F1EA1 /* Release */ = {
+		654C10591D1E9027007F1EA1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -388,32 +374,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		654C0FD01D1E8F55007F1EA1 /* Build configuration list for PBXProject "swift-lintcode" */ = {
+		654C10321D1E9027007F1EA1 /* Build configuration list for PBXProject "swift-lintcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654C0FF51D1E8F55007F1EA1 /* Debug */,
-				654C0FF61D1E8F55007F1EA1 /* Release */,
+				654C10521D1E9027007F1EA1 /* Debug */,
+				654C10531D1E9027007F1EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654C0FF71D1E8F55007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcode" */ = {
+		654C10541D1E9027007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654C0FF81D1E8F55007F1EA1 /* Debug */,
-				654C0FF91D1E8F55007F1EA1 /* Release */,
+				654C10551D1E9027007F1EA1 /* Debug */,
+				654C10561D1E9027007F1EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		654C0FFA1D1E8F55007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcodeTests" */ = {
+		654C10571D1E9027007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcodeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				654C0FFB1D1E8F55007F1EA1 /* Debug */,
-				654C0FFC1D1E8F55007F1EA1 /* Release */,
+				654C10581D1E9027007F1EA1 /* Debug */,
+				654C10591D1E9027007F1EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 654C0FCD1D1E8F55007F1EA1 /* Project object */;
+	rootObject = 654C102F1D1E9027007F1EA1 /* Project object */;
 }
