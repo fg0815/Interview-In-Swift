@@ -19,6 +19,9 @@
 		65EDBE621D1F9F820074FAE6 /* LCCompareStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */; };
 		65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */; };
 		65EDBE651D1FA1230074FAE6 /* LCCompareStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */; };
+		65EDBE671D1FA78F0074FAE6 /* LCStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE661D1FA78F0074FAE6 /* LCStrStr.swift */; };
+		65EDBE691D1FAD210074FAE6 /* LCStrStrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */; };
+		65EDBE6A1D1FC6370074FAE6 /* LCStrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE661D1FA78F0074FAE6 /* LCStrStr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,8 @@
 		65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCAnagramsTest.swift; sourceTree = "<group>"; };
 		65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCCompareStrings.swift; path = String/LCCompareStrings.swift; sourceTree = "<group>"; };
 		65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCCompareStringsTest.swift; sourceTree = "<group>"; };
+		65EDBE661D1FA78F0074FAE6 /* LCStrStr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCStrStr.swift; sourceTree = "<group>"; };
+		65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCStrStrTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 				654C10511D1E9027007F1EA1 /* Info.plist */,
 				65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */,
 				65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */,
+				65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -114,6 +120,7 @@
 			children = (
 				654C105B1D1E9092007F1EA1 /* LCAnagrams.swift */,
 				65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */,
+				65EDBE661D1FA78F0074FAE6 /* LCStrStr.swift */,
 			);
 			name = String;
 			sourceTree = "<group>";
@@ -222,6 +229,7 @@
 				654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */,
 				65EDBE621D1F9F820074FAE6 /* LCCompareStrings.swift in Sources */,
 				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
+				65EDBE671D1FA78F0074FAE6 /* LCStrStr.swift in Sources */,
 				654C105C1D1E9092007F1EA1 /* LCAnagrams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,8 +240,10 @@
 			files = (
 				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
 				65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */,
+				65EDBE6A1D1FC6370074FAE6 /* LCStrStr.swift in Sources */,
 				65EDBE651D1FA1230074FAE6 /* LCCompareStrings.swift in Sources */,
 				654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */,
+				65EDBE691D1FAD210074FAE6 /* LCStrStrTest.swift in Sources */,
 				65EDBE601D1F921C0074FAE6 /* LCAnagrams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
