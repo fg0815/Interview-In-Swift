@@ -13,6 +13,12 @@
 		654C10421D1E9027007F1EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654C10411D1E9027007F1EA1 /* Assets.xcassets */; };
 		654C10451D1E9027007F1EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */; };
 		654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */; };
+		654C105C1D1E9092007F1EA1 /* LCAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C105B1D1E9092007F1EA1 /* LCAnagrams.swift */; };
+		65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */; };
+		65EDBE601D1F921C0074FAE6 /* LCAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C105B1D1E9092007F1EA1 /* LCAnagrams.swift */; };
+		65EDBE621D1F9F820074FAE6 /* LCCompareStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */; };
+		65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */; };
+		65EDBE651D1FA1230074FAE6 /* LCCompareStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,10 @@
 		654C104B1D1E9027007F1EA1 /* swift-lintcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-lintcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_lintcodeTests.swift; sourceTree = "<group>"; };
 		654C10511D1E9027007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654C105B1D1E9092007F1EA1 /* LCAnagrams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCAnagrams.swift; path = String/LCAnagrams.swift; sourceTree = "<group>"; };
+		65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCAnagramsTest.swift; sourceTree = "<group>"; };
+		65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCCompareStrings.swift; path = String/LCCompareStrings.swift; sourceTree = "<group>"; };
+		65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCCompareStringsTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		654C10391D1E9027007F1EA1 /* swift-lintcode */ = {
 			isa = PBXGroup;
 			children = (
+				654C105A1D1E9045007F1EA1 /* String */,
 				654C103A1D1E9027007F1EA1 /* AppDelegate.swift */,
 				654C103C1D1E9027007F1EA1 /* ViewController.swift */,
 				654C103E1D1E9027007F1EA1 /* Main.storyboard */,
@@ -92,8 +103,19 @@
 			children = (
 				654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */,
 				654C10511D1E9027007F1EA1 /* Info.plist */,
+				65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */,
+				65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */,
 			);
 			path = "swift-lintcodeTests";
+			sourceTree = "<group>";
+		};
+		654C105A1D1E9045007F1EA1 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				654C105B1D1E9092007F1EA1 /* LCAnagrams.swift */,
+				65EDBE611D1F9F820074FAE6 /* LCCompareStrings.swift */,
+			);
+			name = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */,
+				65EDBE621D1F9F820074FAE6 /* LCCompareStrings.swift in Sources */,
 				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
+				654C105C1D1E9092007F1EA1 /* LCAnagrams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
+				65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */,
+				65EDBE651D1FA1230074FAE6 /* LCCompareStrings.swift in Sources */,
 				654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */,
+				65EDBE601D1F921C0074FAE6 /* LCAnagrams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +418,7 @@
 				654C10561D1E9027007F1EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		654C10571D1E9027007F1EA1 /* Build configuration list for PBXNativeTarget "swift-lintcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +427,7 @@
 				654C10591D1E9027007F1EA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
