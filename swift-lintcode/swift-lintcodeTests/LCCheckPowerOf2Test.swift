@@ -1,5 +1,5 @@
 //
-//  LCFindPeakElementTest.swift
+//  LCCheckPowerOf2Test.swift
 //  swift-lintcode
 //
 //  Created by Jingwei Huang on 28/06/2016.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class LCFindPeakElementTest: XCTestCase {
+class LCCheckPowerOf2Test: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -20,13 +20,11 @@ class LCFindPeakElementTest: XCTestCase {
         super.tearDown()
     }
     
-    // Given [1, 2, 1, 3, 4, 5, 7, 6]
-    // Return index 1 (which is number 2) or 6 (which is number 7)
-    func testFindPeak() {
-        let nums1 = [1, 2, 1, 3, 4, 5, 7, 6]
-        XCTAssertTrue(LCFindPeakElement.findPeak(nums1) == 1 || LCFindPeakElement.findPeak(nums1) == 6)
-        
-        // let nums2 = [1, 2, 1, 3, 4, 5, 7]
-       // XCTAssertTrue(LCFindPeakElement.findPeak(nums2) == 1)
+    // For n=4, return true;
+    // For n=5, return false;
+    func testCheckPowerOf2() {
+        XCTAssertTrue(LCCheckPowerOf2.checkPowerOf2(4))
+        XCTAssertFalse(LCCheckPowerOf2.checkPowerOf2(5))
     }
+    
 }

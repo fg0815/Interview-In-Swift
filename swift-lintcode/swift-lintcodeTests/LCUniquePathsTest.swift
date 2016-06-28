@@ -1,5 +1,5 @@
 //
-//  LCFindPeakElementTest.swift
+//  LCUniquePathsTest.swift
 //  swift-lintcode
 //
 //  Created by Jingwei Huang on 28/06/2016.
@@ -8,8 +8,8 @@
 
 import XCTest
 
-class LCFindPeakElementTest: XCTestCase {
-    
+class LCUniquePathsTest: XCTestCase {
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,14 +19,12 @@ class LCFindPeakElementTest: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
-    // Given [1, 2, 1, 3, 4, 5, 7, 6]
-    // Return index 1 (which is number 2) or 6 (which is number 7)
-    func testFindPeak() {
-        let nums1 = [1, 2, 1, 3, 4, 5, 7, 6]
-        XCTAssertTrue(LCFindPeakElement.findPeak(nums1) == 1 || LCFindPeakElement.findPeak(nums1) == 6)
-        
-        // let nums2 = [1, 2, 1, 3, 4, 5, 7]
-       // XCTAssertTrue(LCFindPeakElement.findPeak(nums2) == 1)
+
+    // 3, 7 -> 28
+    // 8, 8 -> 3432
+    func testUniquePaths() {
+        XCTAssertTrue(LCUniquePaths.uniquePaths(3, n: 7) == 28)
+        XCTAssertTrue(LCUniquePaths.uniquePaths(8, n: 8) == 3432)
     }
+
 }
