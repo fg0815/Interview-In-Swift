@@ -1,2 +1,3 @@
 ### Lintcode Swift Answers ###
-[LINK]http://www.lintcode.com[LINK]
+
+Lintcode[http://www.lintcode.com]
