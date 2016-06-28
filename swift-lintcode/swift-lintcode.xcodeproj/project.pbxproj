@@ -28,6 +28,12 @@
 		65EDBE801D20C24A0074FAE6 /* LCSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE7F1D20C24A0074FAE6 /* LCSubarraySum.swift */; };
 		65EDBE821D20C45A0074FAE6 /* LCSubarraySumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE811D20C45A0074FAE6 /* LCSubarraySumTest.swift */; };
 		65EDBE831D20C47F0074FAE6 /* LCSubarraySum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE7F1D20C24A0074FAE6 /* LCSubarraySum.swift */; };
+		65EDBE851D20E6660074FAE6 /* LCRemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE841D20E6660074FAE6 /* LCRemoveDuplicates.swift */; };
+		65EDBE861D20E7290074FAE6 /* LCRemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE841D20E6660074FAE6 /* LCRemoveDuplicates.swift */; };
+		65EDBE881D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE871D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift */; };
+		65EDBEDF1D21F6C20074FAE6 /* LCSearch2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBEDE1D21F6C20074FAE6 /* LCSearch2DMatrix.swift */; };
+		65EDBEE01D21F9030074FAE6 /* LCSearch2DMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBEDE1D21F6C20074FAE6 /* LCSearch2DMatrix.swift */; };
+		65EDBEE21D21F9230074FAE6 /* LCSearch2DMatrixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBEE11D21F9230074FAE6 /* LCSearch2DMatrixTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +67,10 @@
 		65EDBE7C1D20C0E90074FAE6 /* LCRemoveElementTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveElementTest.swift; sourceTree = "<group>"; };
 		65EDBE7F1D20C24A0074FAE6 /* LCSubarraySum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCSubarraySum.swift; path = IntegerArray/LCSubarraySum.swift; sourceTree = "<group>"; };
 		65EDBE811D20C45A0074FAE6 /* LCSubarraySumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCSubarraySumTest.swift; sourceTree = "<group>"; };
+		65EDBE841D20E6660074FAE6 /* LCRemoveDuplicates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCRemoveDuplicates.swift; path = IntegerArray/LCRemoveDuplicates.swift; sourceTree = "<group>"; };
+		65EDBE871D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveDuplicatesTest.swift; sourceTree = "<group>"; };
+		65EDBEDE1D21F6C20074FAE6 /* LCSearch2DMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LCSearch2DMatrix.swift; path = IntegerArray/LCSearch2DMatrix.swift; sourceTree = "<group>"; };
+		65EDBEE11D21F9230074FAE6 /* LCSearch2DMatrixTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCSearch2DMatrixTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +134,8 @@
 				65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */,
 				65EDBE7C1D20C0E90074FAE6 /* LCRemoveElementTest.swift */,
 				65EDBE811D20C45A0074FAE6 /* LCSubarraySumTest.swift */,
+				65EDBE871D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift */,
+				65EDBEE11D21F9230074FAE6 /* LCSearch2DMatrixTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -143,6 +155,8 @@
 			children = (
 				65EDBE7A1D20BE3A0074FAE6 /* LCRemoveElement.swift */,
 				65EDBE7F1D20C24A0074FAE6 /* LCSubarraySum.swift */,
+				65EDBE841D20E6660074FAE6 /* LCRemoveDuplicates.swift */,
+				65EDBEDE1D21F6C20074FAE6 /* LCSearch2DMatrix.swift */,
 			);
 			name = "Integer Array";
 			sourceTree = "<group>";
@@ -249,11 +263,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EDBE801D20C24A0074FAE6 /* LCSubarraySum.swift in Sources */,
+				65EDBEDF1D21F6C20074FAE6 /* LCSearch2DMatrix.swift in Sources */,
 				654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */,
 				65EDBE7B1D20BE3A0074FAE6 /* LCRemoveElement.swift in Sources */,
 				65EDBE621D1F9F820074FAE6 /* LCCompareStrings.swift in Sources */,
 				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
 				65EDBE671D1FA78F0074FAE6 /* LCStrStr.swift in Sources */,
+				65EDBE851D20E6660074FAE6 /* LCRemoveDuplicates.swift in Sources */,
 				654C105C1D1E9092007F1EA1 /* LCAnagrams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +280,10 @@
 			files = (
 				65EDBE831D20C47F0074FAE6 /* LCSubarraySum.swift in Sources */,
 				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
+				65EDBEE21D21F9230074FAE6 /* LCSearch2DMatrixTest.swift in Sources */,
+				65EDBE861D20E7290074FAE6 /* LCRemoveDuplicates.swift in Sources */,
+				65EDBEE01D21F9030074FAE6 /* LCSearch2DMatrix.swift in Sources */,
+				65EDBE881D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift in Sources */,
 				65EDBE7E1D20C1EA0074FAE6 /* LCRemoveElement.swift in Sources */,
 				65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */,
 				65EDBE6A1D1FC6370074FAE6 /* LCStrStr.swift in Sources */,
