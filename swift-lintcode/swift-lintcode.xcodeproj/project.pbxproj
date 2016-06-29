@@ -59,6 +59,12 @@
 		65EDBF2E1D23162B0074FAE6 /* LCLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF2C1D23162B0074FAE6 /* LCLinkedList.swift */; };
 		65EDBF301D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF2F1D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift */; };
 		65EDBF311D2323BE0074FAE6 /* LCLinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF271D2298560074FAE6 /* LCLinkedListNode.swift */; };
+		65EDBF331D234BE30074FAE6 /* LCMergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF321D234BE30074FAE6 /* LCMergeTwoLists.swift */; };
+		65EDBF351D2351AD0074FAE6 /* LCMergeTwoListsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF341D2351AD0074FAE6 /* LCMergeTwoListsTest.swift */; };
+		65EDBF361D2353BE0074FAE6 /* LCMergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF321D234BE30074FAE6 /* LCMergeTwoLists.swift */; };
+		65EDBF381D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF371D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift */; };
+		65EDBF391D237FCF0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF371D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift */; };
+		65EDBF3B1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBF3A1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +118,10 @@
 		65EDBF291D2299620074FAE6 /* LCRemoveNodeFromList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveNodeFromList.swift; sourceTree = "<group>"; };
 		65EDBF2C1D23162B0074FAE6 /* LCLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCLinkedList.swift; sourceTree = "<group>"; };
 		65EDBF2F1D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveNodeFromListTest.swift; sourceTree = "<group>"; };
+		65EDBF321D234BE30074FAE6 /* LCMergeTwoLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCMergeTwoLists.swift; sourceTree = "<group>"; };
+		65EDBF341D2351AD0074FAE6 /* LCMergeTwoListsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCMergeTwoListsTest.swift; sourceTree = "<group>"; };
+		65EDBF371D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveDuplicatesFromList.swift; sourceTree = "<group>"; };
+		65EDBF3A1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCRemoveDuplicatesFromListTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +197,8 @@
 				65EDBF1D1D228C860074FAE6 /* LCCheckPowerOf2Test.swift */,
 				65EDBF231D2293B40074FAE6 /* LCUniquePathsTest.swift */,
 				65EDBF2F1D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift */,
+				65EDBF341D2351AD0074FAE6 /* LCMergeTwoListsTest.swift */,
+				65EDBF3A1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -237,6 +249,8 @@
 			children = (
 				65EDBF261D2296CC0074FAE6 /* Data Structure */,
 				65EDBF291D2299620074FAE6 /* LCRemoveNodeFromList.swift */,
+				65EDBF321D234BE30074FAE6 /* LCMergeTwoLists.swift */,
+				65EDBF371D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
@@ -365,7 +379,9 @@
 				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
 				65EDBEED1D21FA420074FAE6 /* LCRemoveDuplicates.swift in Sources */,
 				65EDBF0C1D2245440074FAE6 /* LCFindMinimum.swift in Sources */,
+				65EDBF331D234BE30074FAE6 /* LCMergeTwoLists.swift in Sources */,
 				65EDBEEE1D21FA420074FAE6 /* LCRemoveElement.swift in Sources */,
+				65EDBF381D2354EC0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */,
 				65EDBEEF1D21FA420074FAE6 /* LCSubarraySum.swift in Sources */,
 				65EDBF1C1D228BE60074FAE6 /* LCCheckPowerOf2.swift in Sources */,
 				65EDBF2D1D23162B0074FAE6 /* LCLinkedList.swift in Sources */,
@@ -378,6 +394,7 @@
 			files = (
 				65EDBEFB1D220A310074FAE6 /* LCSubarraySum.swift in Sources */,
 				65EDBEFE1D220A3A0074FAE6 /* LCCompareStrings.swift in Sources */,
+				65EDBF391D237FCF0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */,
 				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
 				65EDBEF91D220A2C0074FAE6 /* LCRemoveDuplicates.swift in Sources */,
 				65EDBF2E1D23162B0074FAE6 /* LCLinkedList.swift in Sources */,
@@ -390,6 +407,7 @@
 				65EDBF1A1D228B2E0074FAE6 /* LCFlipBits.swift in Sources */,
 				65EDBEFD1D220A380074FAE6 /* LCAnagrams.swift in Sources */,
 				65EDBF301D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift in Sources */,
+				65EDBF3B1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift in Sources */,
 				65EDBEF81D2204E20074FAE6 /* LCFirstPosition.swift in Sources */,
 				65EDBE881D20E73D0074FAE6 /* LCRemoveDuplicatesTest.swift in Sources */,
 				65EDBEFF1D220A3D0074FAE6 /* LCStrStr.swift in Sources */,
@@ -404,6 +422,8 @@
 				65EDBF1E1D228C860074FAE6 /* LCCheckPowerOf2Test.swift in Sources */,
 				65EDBE691D1FAD210074FAE6 /* LCStrStrTest.swift in Sources */,
 				65EDBF2B1D2299620074FAE6 /* LCRemoveNodeFromList.swift in Sources */,
+				65EDBF361D2353BE0074FAE6 /* LCMergeTwoLists.swift in Sources */,
+				65EDBF351D2351AD0074FAE6 /* LCMergeTwoListsTest.swift in Sources */,
 				65EDBF1F1D228CFB0074FAE6 /* LCCheckPowerOf2.swift in Sources */,
 				65EDBF241D2293B40074FAE6 /* LCUniquePathsTest.swift in Sources */,
 				65EDBE821D20C45A0074FAE6 /* LCSubarraySumTest.swift in Sources */,
