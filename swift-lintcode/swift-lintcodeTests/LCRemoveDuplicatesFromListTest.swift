@@ -22,7 +22,7 @@ class LCRemoveDuplicatesFromListTest: XCTestCase {
     
     // Given 1->1->2, return 1->2.
     // Given 1->1->2->3->3, return 1->2->3.
-    func deleteDuplicates() {
+    func testDeleteDuplicates() {
         let list1 = LCLinkedList.linkedList([1, 1, 2])
         let expectList1 = LCLinkedList.linkedList([1, 2])
         let listResult1 = LCRemoveDuplicatesFromList.deleteDuplicates(list1)
@@ -30,8 +30,8 @@ class LCRemoveDuplicatesFromListTest: XCTestCase {
         let expectList2 = LCLinkedList.linkedList([1, 2, 3])
         let listResult2 = LCRemoveDuplicatesFromList.deleteDuplicates(list2)
         
-        XCTAssertTrue(expectList1 == listResult1)
-        XCTAssertTrue(expectList2 == listResult2)
+        XCTAssertTrue(LCLinkedList.compare(expectList1, node2: listResult1))
+        XCTAssertTrue(LCLinkedList.compare(expectList2, node2: listResult2))
     }
     
 }
