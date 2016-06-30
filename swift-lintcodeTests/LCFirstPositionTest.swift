@@ -21,7 +21,7 @@ class LCFirstPositionTest: XCTestCase {
         super.tearDown()
     }
     
-    func binarySearch() {
+    func testBinarySearch() {
         let sortedArray = [1, 2, 3, 3, 4, 5, 10]
         
         XCTAssertTrue(LCFirstPosition.binarySearch(sortedArray, target: 3) == 2)

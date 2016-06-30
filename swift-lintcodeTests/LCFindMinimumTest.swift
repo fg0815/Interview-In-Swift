@@ -22,7 +22,7 @@ class LCFindMinimumTest: XCTestCase {
     }
     
     // Given [4, 5, 6, 7, 0, 1, 2] return 0
-    func findMin() {
+    func testFindMin() {
         XCTAssertTrue(LCFindMinimum.findMin([4, 5, 6, 7, 0, 1, 2]) == 0)
     }
 }

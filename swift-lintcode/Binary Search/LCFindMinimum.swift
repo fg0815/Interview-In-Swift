@@ -20,8 +20,7 @@ class LCFindMinimum: NSObject {
             return -1
         }
         
-        let start = 0
-        var end = nums.count - 1
+        var start = 0, end = nums.count - 1
         let target = nums[nums.count - 1]
         
         // find the first element <= target
@@ -29,6 +28,8 @@ class LCFindMinimum: NSObject {
             let mid = start + (end - start) / 2
             if nums[mid] <= target {
                 end = mid
+            } else {
+                start = mid
             }
         }
         
