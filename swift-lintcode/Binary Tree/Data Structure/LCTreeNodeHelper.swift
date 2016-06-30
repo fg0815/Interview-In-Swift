@@ -34,4 +34,55 @@ class LCTreeNodeHelper: NSObject {
         
         return false
     }
+    
+    /**
+     Create `LCTreeNode` by passing string
+     1 3 7 11 16
+     For example,
+     3,9,20,#,#,15,7
+     
+     will generate the tree below
+     
+                3
+               / \
+              9  20
+                /  \
+               15   7
+     
+     - parameter nodesString: all nodes value from top to bottom, '#' from empty node, use ',' to separate
+     
+     - returns: `LCTreeNode` object
+     */
+    class func createTreeNode(nodesString: String) -> LCTreeNode {
+        let nodes = nodesString.componentsSeparatedByString(",")
+        
+        var queue: [LCTreeNode] = []
+        let root = LCTreeNode.init(val: Int(nodes[0])!)
+        queue.append(root)
+        
+        var index = 0
+        var isLeftChild = true
+        
+        for i in 1..<nodes.count {
+            if nodes[i] != "#" {
+                let node = LCTreeNode.init(val: Int(nodes[i])!)
+                if isLeftChild {
+                    queue[index].left = node
+                } else {
+                    queue[index].right = node
+                }
+                
+                queue.append(node)
+            }
+            
+            if !isLeftChild {
+                index += 1
+            }
+            
+            isLeftChild = !isLeftChild
+        }
+        
+        return root
+        
+    }
 }
