@@ -14,6 +14,9 @@
 		654C10451D1E9027007F1EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */; };
 		654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */; };
 		656B351E1D28766800AD4327 /* LCTreeNodeHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */; };
+		656B35301D2A257E00AD4327 /* LCTreePreOrderTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B352F1D2A257E00AD4327 /* LCTreePreOrderTraverse.swift */; };
+		656B35321D2A26FE00AD4327 /* LCTreePreOrderTraverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B35311D2A26FE00AD4327 /* LCTreePreOrderTraverseTest.swift */; };
+		656B35331D2A283E00AD4327 /* LCTreePreOrderTraverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B352F1D2A257E00AD4327 /* LCTreePreOrderTraverse.swift */; };
 		6589CFBA1D2491C200DF4D34 /* LCInsertTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */; };
 		6589CFBB1D2491DB00DF4D34 /* LCInsertTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */; };
 		6589CFBD1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */; };
@@ -106,6 +109,8 @@
 		654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_lintcodeTests.swift; sourceTree = "<group>"; };
 		654C10511D1E9027007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreeNodeHelperTest.swift; sourceTree = "<group>"; };
+		656B352F1D2A257E00AD4327 /* LCTreePreOrderTraverse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreePreOrderTraverse.swift; sourceTree = "<group>"; };
+		656B35311D2A26FE00AD4327 /* LCTreePreOrderTraverseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreePreOrderTraverseTest.swift; sourceTree = "<group>"; };
 		6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCInsertTreeNode.swift; sourceTree = "<group>"; };
 		6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCInsertTreeNodeTest.swift; sourceTree = "<group>"; };
 		6589CFBE1D24AC8B00DF4D34 /* LCBalancedTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCBalancedTree.swift; sourceTree = "<group>"; };
@@ -233,6 +238,7 @@
 				6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */,
 				6589CFC11D24AF0A00DF4D34 /* LCBalancedTreeTest.swift */,
 				656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */,
+				656B35311D2A26FE00AD4327 /* LCTreePreOrderTraverseTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 				65EDBF481D23DE1D0074FAE6 /* LCDepthTree.swift */,
 				6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */,
 				6589CFBE1D24AC8B00DF4D34 /* LCBalancedTree.swift */,
+				656B352F1D2A257E00AD4327 /* LCTreePreOrderTraverse.swift */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
@@ -431,6 +438,7 @@
 				65EDBF171D2288150074FAE6 /* LCFlipBits.swift in Sources */,
 				65EDBEF11D21FA420074FAE6 /* LCAnagrams.swift in Sources */,
 				65EDBF281D2298560074FAE6 /* LCLinkedListNode.swift in Sources */,
+				656B35301D2A257E00AD4327 /* LCTreePreOrderTraverse.swift in Sources */,
 				654C103B1D1E9027007F1EA1 /* AppDelegate.swift in Sources */,
 				65EDBF461D23DD250074FAE6 /* LCTreeNode.swift in Sources */,
 				65EDBEED1D21FA420074FAE6 /* LCRemoveDuplicates.swift in Sources */,
@@ -458,6 +466,7 @@
 				65EDBF391D237FCF0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */,
 				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
 				65EDBEF91D220A2C0074FAE6 /* LCRemoveDuplicates.swift in Sources */,
+				656B35331D2A283E00AD4327 /* LCTreePreOrderTraverse.swift in Sources */,
 				65EDBF2E1D23162B0074FAE6 /* LCLinkedList.swift in Sources */,
 				65EDBF311D2323BE0074FAE6 /* LCLinkedListNode.swift in Sources */,
 				65EDBEFC1D220A340074FAE6 /* LCSearch2DMatrix.swift in Sources */,
@@ -497,6 +506,7 @@
 				65EDBF351D2351AD0074FAE6 /* LCMergeTwoListsTest.swift in Sources */,
 				65EDBF4C1D23E2EA0074FAE6 /* LCDepthTreeTest.swift in Sources */,
 				65EDBF1F1D228CFB0074FAE6 /* LCCheckPowerOf2.swift in Sources */,
+				656B35321D2A26FE00AD4327 /* LCTreePreOrderTraverseTest.swift in Sources */,
 				65EDBF241D2293B40074FAE6 /* LCUniquePathsTest.swift in Sources */,
 				65EDBE821D20C45A0074FAE6 /* LCSubarraySumTest.swift in Sources */,
 			);
