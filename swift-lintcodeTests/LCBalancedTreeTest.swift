@@ -22,10 +22,10 @@ class LCBalancedTreeTest: XCTestCase {
      */
     func testIsBalanced() {
         let testA = LCTreeNodeHelper.createTreeNode("3,9,20,#,#,15,7")
-        //let testB = LCTreeNodeHelper.createTreeNode("3,#,20,15,7")
+        let testB = LCTreeNodeHelper.createTreeNode("3,#,20,15,7")
         
         XCTAssertTrue(LCBalancedTree.isBalanced(testA))
-        //XCTAssertFalse(LCBalancedTree.isBalanced(testB))
+        XCTAssertFalse(LCBalancedTree.isBalanced(testB))
     }
     
 }

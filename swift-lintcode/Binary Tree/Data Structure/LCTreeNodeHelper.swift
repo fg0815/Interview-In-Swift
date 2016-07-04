@@ -37,7 +37,7 @@ class LCTreeNodeHelper: NSObject {
     
     /**
      Create `LCTreeNode` by passing string
-     1 3 7 11 16
+     
      For example,
      3,9,20,#,#,15,7
      
@@ -83,6 +83,5 @@ class LCTreeNodeHelper: NSObject {
         }
         
         return root
-        
     }
 }

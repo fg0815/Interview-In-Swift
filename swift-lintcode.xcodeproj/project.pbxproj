@@ -13,6 +13,7 @@
 		654C10421D1E9027007F1EA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654C10411D1E9027007F1EA1 /* Assets.xcassets */; };
 		654C10451D1E9027007F1EA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654C10431D1E9027007F1EA1 /* LaunchScreen.storyboard */; };
 		654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */; };
+		656B351E1D28766800AD4327 /* LCTreeNodeHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */; };
 		6589CFBA1D2491C200DF4D34 /* LCInsertTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */; };
 		6589CFBB1D2491DB00DF4D34 /* LCInsertTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */; };
 		6589CFBD1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */; };
@@ -104,6 +105,7 @@
 		654C104B1D1E9027007F1EA1 /* swift-lintcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-lintcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		654C104F1D1E9027007F1EA1 /* swift_lintcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_lintcodeTests.swift; sourceTree = "<group>"; };
 		654C10511D1E9027007F1EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreeNodeHelperTest.swift; sourceTree = "<group>"; };
 		6589CFB91D2491C200DF4D34 /* LCInsertTreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCInsertTreeNode.swift; sourceTree = "<group>"; };
 		6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCInsertTreeNodeTest.swift; sourceTree = "<group>"; };
 		6589CFBE1D24AC8B00DF4D34 /* LCBalancedTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCBalancedTree.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				65EDBF4B1D23E2EA0074FAE6 /* LCDepthTreeTest.swift */,
 				6589CFBC1D24933A00DF4D34 /* LCInsertTreeNodeTest.swift */,
 				6589CFC11D24AF0A00DF4D34 /* LCBalancedTreeTest.swift */,
+				656B351D1D28766800AD4327 /* LCTreeNodeHelperTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				65EDBF141D2248330074FAE6 /* LCFindPeakElement.swift in Sources */,
 				65EDBF1A1D228B2E0074FAE6 /* LCFlipBits.swift in Sources */,
 				65EDBEFD1D220A380074FAE6 /* LCAnagrams.swift in Sources */,
+				656B351E1D28766800AD4327 /* LCTreeNodeHelperTest.swift in Sources */,
 				65EDBF301D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift in Sources */,
 				65EDBF3B1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift in Sources */,
 				65EDBEF81D2204E20074FAE6 /* LCFirstPosition.swift in Sources */,
