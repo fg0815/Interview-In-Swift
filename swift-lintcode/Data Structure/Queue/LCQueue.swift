@@ -24,7 +24,7 @@ class LCQueue<T> {
      
      - parameter value: new value
      */
-    func enqueue(value: T) {
+    func enqueue(value: T?) {
         back.next = LCQueueItem(newValue: value)
         back = back.next!
         count += 1

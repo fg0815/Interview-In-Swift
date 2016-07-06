@@ -9,7 +9,7 @@
 import Foundation
 
 class LCQueueItem<T> {
-    let value: T!
+    let value: T?
     var next: LCQueueItem?
     
     init(newValue: T?) {

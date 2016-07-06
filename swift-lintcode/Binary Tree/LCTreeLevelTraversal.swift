@@ -14,6 +14,8 @@ import Foundation
 enum TraversalType {
     case bfs
     case dfs
+    case bfsWithTwoQueues
+    case bfsQueueWithDummyNode
 }
 
 class LCTreeLevelTraversal: NSObject {
@@ -24,11 +26,16 @@ class LCTreeLevelTraversal: NSObject {
         case TraversalType.dfs:
             let treeLevelTraversal = LCTreeLevelTraversal()
             return treeLevelTraversal.levelOrderByDFS(root)
+        case TraversalType.bfsWithTwoQueues:
+            return LCTreeLevelTraversal.levelOrderByBFSWithTwoQueues(root)
+        case TraversalType.bfsQueueWithDummyNode:
+            return LCTreeLevelTraversal.levelOrderByBFSQueueWithDummyNode(root)
         }
     }
     
 }
 
+// BFS solution
 extension LCTreeLevelTraversal {
     class func levelOrderByBFS(root: LCTreeNode?) -> [[Int]] {
         var result = [[Int]]()
@@ -63,6 +70,7 @@ extension LCTreeLevelTraversal {
     }
 }
 
+// DFS solution
 extension LCTreeLevelTraversal {
     func levelOrderByDFS(root :LCTreeNode?) -> [[Int]] {
         var results = [[Int]]()
@@ -105,3 +113,88 @@ extension LCTreeLevelTraversal {
         return level
     }
 }
+
+// BFS with two queues
+extension LCTreeLevelTraversal {
+    class func levelOrderByBFSWithTwoQueues(root: LCTreeNode?) -> [[Int]] {
+        var results = [[Int]]()
+        
+        if let node = root {
+            var q1: [LCTreeNode] = []
+            var q2: [LCTreeNode] = []
+            
+            q1.append(node)
+            
+            while q1.count != 0 {
+                var level: [Int] = []
+                q2.removeAll()
+                
+                for currentNode in q1 {
+                    level.append(currentNode.val)
+                    
+                    if let left = currentNode.left {
+                        q2.append(left)
+                    }
+                    
+                    if let right = currentNode.right {
+                        q2.append(right)
+                    }
+                }
+                
+                // swap q1 and q2
+                let temp = q1
+                q1 = q2
+                q2 = temp
+                
+                // add to result
+                results.append(level)
+            }
+        }
+        
+        return results
+    }
+}
+
+// BFS, queue with dummy node
+extension LCTreeLevelTraversal {
+    class func levelOrderByBFSQueueWithDummyNode(root: LCTreeNode?) -> [[Int]] {
+        var results = [[Int]]()
+        
+        if let node = root {
+            let queue = LCQueue<LCTreeNode>()
+            queue.enqueue(node)
+            queue.enqueue(nil) // dummy node
+            
+            var level: [Int] = []
+            while !queue.isEmpty() {
+                if let currentNode = queue.dequeue() {
+                    level.append(currentNode.val)
+                    
+                    if let left = currentNode.left {
+                        queue.enqueue(left)
+                    }
+                    
+                    if let right = currentNode.right {
+                        queue.enqueue(right)
+                    }
+                    
+                } else {
+                    if level.count == 0 {
+                        break
+                    }
+                    
+                    results.append(level)
+                    level = []
+                    queue.enqueue(nil)
+                }
+                
+                
+            }
+        }
+        
+        return results
+        
+    }
+}
+
+

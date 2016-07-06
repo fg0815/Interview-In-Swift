@@ -37,6 +37,16 @@ class LCTreeLevelTraversalTest: XCTestCase {
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
     
+    func testLevelOrderBFSWithTwoQueues() {
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsWithTwoQueues)
+        XCTAssertTrue(treeResult1 == expectedTree1())
+    }
+    
+    func testLevelOrderBFSQueueWithDummyNode() {
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsQueueWithDummyNode)
+        XCTAssertTrue(treeResult1 == expectedTree1())
+    }
+    
     func tree1() -> LCTreeNode {
         return LCTreeNodeHelper.createTreeNode("3,9,20,#,#,15,7")
     }
