@@ -98,6 +98,9 @@
 		65FB844B1D2D20BD0013A220 /* LCBSTSearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB844A1D2D20BD0013A220 /* LCBSTSearchRange.swift */; };
 		65FB844F1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB844E1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift */; };
 		65FB84501D2DD0FB0013A220 /* LCBSTSearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FB844A1D2D20BD0013A220 /* LCBSTSearchRange.swift */; };
+		65FC1DCF1D2E5BF30021F234 /* LCWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */; };
+		65FC1DD21D2E65500021F234 /* LCWordLadderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */; };
+		65FC1DD31D2E65990021F234 /* LCWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +179,8 @@
 		65EDBF4D1D23E3AD0074FAE6 /* LCTreeNodeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreeNodeHelper.swift; sourceTree = "<group>"; };
 		65FB844A1D2D20BD0013A220 /* LCBSTSearchRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCBSTSearchRange.swift; sourceTree = "<group>"; };
 		65FB844E1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCBSTSearchRangeTest.swift; sourceTree = "<group>"; };
+		65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWordLadder.swift; sourceTree = "<group>"; };
+		65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWordLadderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +222,7 @@
 		654C10391D1E9027007F1EA1 /* swift-lintcode */ = {
 			isa = PBXGroup;
 			children = (
+				65FC1DCD1D2E5B620021F234 /* Search & Recursion */,
 				65A7CEFD1D2B6E2500E41FF3 /* Data Structure */,
 				65EDBF431D23DCCF0074FAE6 /* Binary Tree */,
 				65EDBF251D22969F0074FAE6 /* Linked List */,
@@ -264,6 +270,7 @@
 				65A7CEF71D2B69CC00E41FF3 /* LCBSTValidationTest.swift */,
 				65A7CF151D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift */,
 				65FB844E1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift */,
+				65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -369,6 +376,14 @@
 				65EDBF4D1D23E3AD0074FAE6 /* LCTreeNodeHelper.swift */,
 			);
 			path = "Data Structure";
+			sourceTree = "<group>";
+		};
+		65FC1DCD1D2E5B620021F234 /* Search & Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */,
+			);
+			path = "Search & Recursion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +499,7 @@
 				65EDBF171D2288150074FAE6 /* LCFlipBits.swift in Sources */,
 				65A7CF021D2B6E7900E41FF3 /* LCQueueItem.swift in Sources */,
 				65EDBEF11D21FA420074FAE6 /* LCAnagrams.swift in Sources */,
+				65FC1DCF1D2E5BF30021F234 /* LCWordLadder.swift in Sources */,
 				65FB844B1D2D20BD0013A220 /* LCBSTSearchRange.swift in Sources */,
 				65EDBF281D2298560074FAE6 /* LCLinkedListNode.swift in Sources */,
 				65A7CEFB1D2B6BFD00E41FF3 /* LCTreeLevelTraversal.swift in Sources */,
@@ -512,8 +528,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EDBEFB1D220A310074FAE6 /* LCSubarraySum.swift in Sources */,
+				65FC1DD21D2E65500021F234 /* LCWordLadderTest.swift in Sources */,
 				65EDBEFE1D220A3A0074FAE6 /* LCCompareStrings.swift in Sources */,
 				65EDBF391D237FCF0074FAE6 /* LCRemoveDuplicatesFromList.swift in Sources */,
+				65FC1DD31D2E65990021F234 /* LCWordLadder.swift in Sources */,
 				65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */,
 				65EDBEF91D220A2C0074FAE6 /* LCRemoveDuplicates.swift in Sources */,
 				65A7CEF81D2B69CC00E41FF3 /* LCBSTValidationTest.swift in Sources */,
