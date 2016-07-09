@@ -33,6 +33,8 @@
 		65A7CF131D2BC34E00E41FF3 /* LCQueueItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7CF011D2B6E7900E41FF3 /* LCQueueItem.swift */; };
 		65A7CF141D2BC35200E41FF3 /* LCQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7CEFF1D2B6E3000E41FF3 /* LCQueue.swift */; };
 		65A7CF161D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A7CF151D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift */; };
+		65B6F4021D30D195002D45C3 /* LCPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DD41D2F16FF0021F234 /* LCPermutations.swift */; };
+		65B6F4041D30D2D7002D45C3 /* LCPermutationsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6F4031D30D2D7002D45C3 /* LCPermutationsTest.swift */; };
 		65EDBE5F1D1F90B10074FAE6 /* LCAnagramsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */; };
 		65EDBE641D1FA1150074FAE6 /* LCCompareStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */; };
 		65EDBE691D1FAD210074FAE6 /* LCStrStrTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */; };
@@ -101,6 +103,7 @@
 		65FC1DCF1D2E5BF30021F234 /* LCWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */; };
 		65FC1DD21D2E65500021F234 /* LCWordLadderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */; };
 		65FC1DD31D2E65990021F234 /* LCWordLadder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */; };
+		65FC1DD51D2F16FF0021F234 /* LCPermutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC1DD41D2F16FF0021F234 /* LCPermutations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -137,6 +140,7 @@
 		65A7CEFF1D2B6E3000E41FF3 /* LCQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCQueue.swift; sourceTree = "<group>"; };
 		65A7CF011D2B6E7900E41FF3 /* LCQueueItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCQueueItem.swift; sourceTree = "<group>"; };
 		65A7CF151D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreeLevelTraversalTest.swift; sourceTree = "<group>"; };
+		65B6F4031D30D2D7002D45C3 /* LCPermutationsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPermutationsTest.swift; sourceTree = "<group>"; };
 		65EDBE5E1D1F90B10074FAE6 /* LCAnagramsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCAnagramsTest.swift; sourceTree = "<group>"; };
 		65EDBE631D1FA1150074FAE6 /* LCCompareStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCCompareStringsTest.swift; sourceTree = "<group>"; };
 		65EDBE681D1FAD210074FAE6 /* LCStrStrTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCStrStrTest.swift; sourceTree = "<group>"; };
@@ -181,6 +185,7 @@
 		65FB844E1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCBSTSearchRangeTest.swift; sourceTree = "<group>"; };
 		65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWordLadder.swift; sourceTree = "<group>"; };
 		65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWordLadderTest.swift; sourceTree = "<group>"; };
+		65FC1DD41D2F16FF0021F234 /* LCPermutations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPermutations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +276,7 @@
 				65A7CF151D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift */,
 				65FB844E1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift */,
 				65FC1DD11D2E65500021F234 /* LCWordLadderTest.swift */,
+				65B6F4031D30D2D7002D45C3 /* LCPermutationsTest.swift */,
 			);
 			path = "swift-lintcodeTests";
 			sourceTree = "<group>";
@@ -382,6 +388,7 @@
 			isa = PBXGroup;
 			children = (
 				65FC1DCE1D2E5BF30021F234 /* LCWordLadder.swift */,
+				65FC1DD41D2F16FF0021F234 /* LCPermutations.swift */,
 			);
 			path = "Search & Recursion";
 			sourceTree = "<group>";
@@ -488,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65EDBF2A1D2299620074FAE6 /* LCRemoveNodeFromList.swift in Sources */,
+				65FC1DD51D2F16FF0021F234 /* LCPermutations.swift in Sources */,
 				65EDBF211D228DEA0074FAE6 /* LCUniquePaths.swift in Sources */,
 				654C103D1D1E9027007F1EA1 /* ViewController.swift in Sources */,
 				65EDBF111D22473F0074FAE6 /* LCFindPeakElement.swift in Sources */,
@@ -548,6 +556,7 @@
 				65EDBEFD1D220A380074FAE6 /* LCAnagrams.swift in Sources */,
 				656B351E1D28766800AD4327 /* LCTreeNodeHelperTest.swift in Sources */,
 				65EDBF301D23221A0074FAE6 /* LCRemoveNodeFromListTest.swift in Sources */,
+				65B6F4041D30D2D7002D45C3 /* LCPermutationsTest.swift in Sources */,
 				65A7CF161D2BCA2700E41FF3 /* LCTreeLevelTraversalTest.swift in Sources */,
 				65EDBF3B1D2380630074FAE6 /* LCRemoveDuplicatesFromListTest.swift in Sources */,
 				65A7CEFC1D2B6C6E00E41FF3 /* LCTreeLevelTraversal.swift in Sources */,
@@ -569,6 +578,7 @@
 				65FB844F1D2DD09C0013A220 /* LCBSTSearchRangeTest.swift in Sources */,
 				65A7CEF91D2B6A3100E41FF3 /* LCBSTValidation.swift in Sources */,
 				65EDBF0E1D22463E0074FAE6 /* LCFindMinimumTest.swift in Sources */,
+				65B6F4021D30D195002D45C3 /* LCPermutations.swift in Sources */,
 				654C10501D1E9027007F1EA1 /* swift_lintcodeTests.swift in Sources */,
 				65EDBF3F1D2384400074FAE6 /* LCReverseLinkedListTest.swift in Sources */,
 				65EDBF4F1D2479CA0074FAE6 /* LCTreeNodeHelper.swift in Sources */,
