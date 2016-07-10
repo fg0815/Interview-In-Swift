@@ -8,3 +8,6 @@ script:
     -scheme swift-lintcode \
     -sdk iphonesimulator \
     -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
