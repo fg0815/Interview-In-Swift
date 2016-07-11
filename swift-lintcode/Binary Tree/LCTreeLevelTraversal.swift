@@ -81,38 +81,36 @@ extension LCTreeLevelTraversal {
         
         var maxLevel = 0
         while true {
-            let level: [Int] = []
-            let newLevel = dfs(node, level: level, curtLevel: 0, maxLevel: maxLevel)
-            if newLevel.count == 0 {
+            var level: [Int] = []
+            dfs(node, level: &level, curtLevel: 0, maxLevel: maxLevel)
+            if level.count == 0 {
                 break
             }
             
-            results.append(newLevel)
+            results.append(level)
             maxLevel += 1
         }
+        
         return results
     }
     
-    private func dfs(root: LCTreeNode?, level: [Int], curtLevel: Int, maxLevel: Int) -> [Int] {
+    private func dfs(root: LCTreeNode?, inout level: [Int], curtLevel: Int, maxLevel: Int) {
         if curtLevel > maxLevel {
-            return level
+            return
         }
         
         guard let node = root else {
-            return level
+            return
         }
         
-        var newLevel = level
         if curtLevel == maxLevel {
-            newLevel.append(node.val)
-            return newLevel
+            level.append(node.val)
+            return
         }
         
-        newLevel += dfs(node.left, level: level, curtLevel: curtLevel + 1, maxLevel: maxLevel)
-        newLevel += dfs(node.right, level: level, curtLevel: curtLevel + 1, maxLevel: maxLevel)
-        
-        return newLevel
-        
+        dfs(node.left, level: &level, curtLevel: curtLevel + 1, maxLevel: maxLevel)
+        dfs(node.right, level: &level, curtLevel: curtLevel + 1, maxLevel: maxLevel)
+
     }
 }
 
