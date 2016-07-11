@@ -7,6 +7,8 @@
 
 The project is helping developers who are cracking algorithm questions by using Swift. The questions are from [LintCode](http://www.lintcode.com) 
 
+The project is still under development
+
 ###How to use###
 - The project was built by Xcode 7.3 with Swift 2.3
 - The project only runs via tests (command + U) with any iOS simulator as a target
