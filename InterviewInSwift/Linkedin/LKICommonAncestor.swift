@@ -8,6 +8,11 @@
 
 import Foundation
 
+/// Refer to `LCLowestCommonAncestor`
+
+// Find common ancestor in binary tree
 class LKICommonAncestor: NSObject {
-    
+    class func lowestCommonAncestor(root: LCTreeNode?, A: LCTreeNode, B: LCTreeNode) -> LCTreeNode? {
+        return LCLowestCommonAncestor.lowestCommonAncestor(root, A: A, B: B)
+    }
 }
