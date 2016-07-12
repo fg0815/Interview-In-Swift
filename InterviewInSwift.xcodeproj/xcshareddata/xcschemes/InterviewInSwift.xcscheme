@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-               BuildableName = "swift-lintcode.app"
-               BlueprintName = "swift-lintcode"
-               ReferencedContainer = "container:swift-lintcode.xcodeproj">
+               BuildableName = "SwiftInterview.app"
+               BlueprintName = "InterviewInSwift"
+               ReferencedContainer = "container:InterviewInSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "654C104A1D1E9027007F1EA1"
-               BuildableName = "swift-lintcodeTests.xctest"
-               BlueprintName = "swift-lintcodeTests"
-               ReferencedContainer = "container:swift-lintcode.xcodeproj">
+               BuildableName = "InterviewInSwift.xctest"
+               BlueprintName = "InterviewInSwiftTests"
+               ReferencedContainer = "container:InterviewInSwift.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "swift-lintcode.app"
-            BlueprintName = "swift-lintcode"
-            ReferencedContainer = "container:swift-lintcode.xcodeproj">
+            BuildableName = "SwiftInterview.app"
+            BlueprintName = "InterviewInSwift"
+            ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,9 +67,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "swift-lintcode.app"
-            BlueprintName = "swift-lintcode"
-            ReferencedContainer = "container:swift-lintcode.xcodeproj">
+            BuildableName = "SwiftInterview.app"
+            BlueprintName = "InterviewInSwift"
+            ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "swift-lintcode.app"
-            BlueprintName = "swift-lintcode"
-            ReferencedContainer = "container:swift-lintcode.xcodeproj">
+            BuildableName = "SwiftInterview.app"
+            BlueprintName = "InterviewInSwift"
+            ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
