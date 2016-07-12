@@ -53,14 +53,18 @@ extension LCTreeLevelTraversal {
             var level: [Int] = []
             let size = queue.size()
             for _ in 0 ..< size {
-                let head = queue.dequeue()
-                level.append(head!.val)
                 
-                if let left = head!.left {
+                guard let head = queue.dequeue() else {
+                    preconditionFailure("Head is required")
+                }
+                
+                level.append(head.val)
+                
+                if let left = head.left {
                     queue.enqueue(left)
                 }
                 
-                if let right = head!.right {
+                if let right = head.right {
                     queue.enqueue(right)
                 }
             }
