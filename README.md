@@ -5,7 +5,7 @@
 ![Swift 2.2.x](https://img.shields.io/badge/Swift-2.2.x-orange.svg)
 [![codecov](https://codecov.io/gh/fg0815/swift-lintcode/branch/master/graph/badge.svg)](https://codecov.io/gh/fg0815/swift-lintcode)
 
-The project is helping developers who are cracking algorithm questions by using Swift. The questions are from [LintCode](http://www.lintcode.com) 
+The project is helping developers who are cracking algorithm questions by using Swift. The questions are from [LintCode](http://www.lintcode.com) , [LeetCode](http://www.leetcode.com) and all other companys may ask.
 
 The project is still under development
 
