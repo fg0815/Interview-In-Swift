@@ -113,6 +113,11 @@
 		65ECCEAF1D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCE901D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift */; };
 		65ECCEB01D350BEC00D0307C /* LCUniquePathsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCE911D350BEC00D0307C /* LCUniquePathsTest.swift */; };
 		65ECCEB11D350BEC00D0307C /* LCWordLadderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCE921D350BEC00D0307C /* LCWordLadderTest.swift */; };
+		65ECCEB41D3511E900D0307C /* LKIReverseLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEB31D3511E900D0307C /* LKIReverseLinkedList.swift */; };
+		65ECCEB61D3514D800D0307C /* LKICommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEB51D3514D800D0307C /* LKICommonAncestor.swift */; };
+		65ECCEB81D35153400D0307C /* LCLowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEB71D35153400D0307C /* LCLowestCommonAncestor.swift */; };
+		65ECCEBC1D3516B500D0307C /* LCLowestCommonAncestorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEBB1D3516B500D0307C /* LCLowestCommonAncestorTest.swift */; };
+		65ECCEBD1D35172300D0307C /* LCLowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEB71D35153400D0307C /* LCLowestCommonAncestor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,6 +202,10 @@
 		65ECCE901D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTreePreOrderTraverseTest.swift; sourceTree = "<group>"; };
 		65ECCE911D350BEC00D0307C /* LCUniquePathsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCUniquePathsTest.swift; sourceTree = "<group>"; };
 		65ECCE921D350BEC00D0307C /* LCWordLadderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCWordLadderTest.swift; sourceTree = "<group>"; };
+		65ECCEB31D3511E900D0307C /* LKIReverseLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKIReverseLinkedList.swift; sourceTree = "<group>"; };
+		65ECCEB51D3514D800D0307C /* LKICommonAncestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKICommonAncestor.swift; sourceTree = "<group>"; };
+		65ECCEB71D35153400D0307C /* LCLowestCommonAncestor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCLowestCommonAncestor.swift; sourceTree = "<group>"; };
+		65ECCEBB1D3516B500D0307C /* LCLowestCommonAncestorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCLowestCommonAncestorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +249,7 @@
 			children = (
 				65ECCDF31D350BD400D0307C /* AppDelegate.swift */,
 				65ECCDF41D350BD400D0307C /* Data Structure */,
+				65ECCEB21D35109700D0307C /* Linkedin */,
 				65ECCDF81D350BD400D0307C /* LintCode */,
 				65ECCE231D350BD400D0307C /* Support Files */,
 			);
@@ -300,6 +310,7 @@
 				65ECCE071D350BD400D0307C /* LCTreeInOrderTraverse.swift */,
 				65ECCE081D350BD400D0307C /* LCTreeLevelTraversal.swift */,
 				65ECCE091D350BD400D0307C /* LCTreePreOrderTraverse.swift */,
+				65ECCEB71D35153400D0307C /* LCLowestCommonAncestor.swift */,
 			);
 			path = "Binary Tree";
 			sourceTree = "<group>";
@@ -424,10 +435,20 @@
 				65ECCE8E1D350BEC00D0307C /* LCTreeLevelTraversalTest.swift */,
 				65ECCE8F1D350BEC00D0307C /* LCTreeNodeHelperTest.swift */,
 				65ECCE901D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift */,
+				65ECCEBB1D3516B500D0307C /* LCLowestCommonAncestorTest.swift */,
 				65ECCE911D350BEC00D0307C /* LCUniquePathsTest.swift */,
 				65ECCE921D350BEC00D0307C /* LCWordLadderTest.swift */,
 			);
 			path = LintCode;
+			sourceTree = "<group>";
+		};
+		65ECCEB21D35109700D0307C /* Linkedin */ = {
+			isa = PBXGroup;
+			children = (
+				65ECCEB31D3511E900D0307C /* LKIReverseLinkedList.swift */,
+				65ECCEB51D3514D800D0307C /* LKICommonAncestor.swift */,
+			);
+			path = Linkedin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -559,12 +580,15 @@
 				65ECCE361D350BD400D0307C /* LCTreeNodeHelper.swift in Sources */,
 				65ECCE561D350BD400D0307C /* LCRemoveDuplicatesFromList.swift in Sources */,
 				65ECCE5E1D350BD400D0307C /* LCFlipBits.swift in Sources */,
+				65ECCEB41D3511E900D0307C /* LKIReverseLinkedList.swift in Sources */,
 				65ECCE541D350BD400D0307C /* LCMergeTwoLists.swift in Sources */,
 				65ECCE6A1D350BD400D0307C /* LCCompareStrings.swift in Sources */,
 				65ECCE261D350BD400D0307C /* AppDelegate.swift in Sources */,
 				65ECCE2C1D350BD400D0307C /* LCFindMinimum.swift in Sources */,
 				65ECCE3E1D350BD400D0307C /* LCDepthTree.swift in Sources */,
 				65ECCE381D350BD400D0307C /* LCBalancedTree.swift in Sources */,
+				65ECCEB81D35153400D0307C /* LCLowestCommonAncestor.swift in Sources */,
+				65ECCEB61D3514D800D0307C /* LKICommonAncestor.swift in Sources */,
 				65ECCE2A1D350BD400D0307C /* LCQueueItem.swift in Sources */,
 				65ECCE3C1D350BD400D0307C /* LCBSTValidation.swift in Sources */,
 				65ECCE4C1D350BD400D0307C /* LCSubarraySum.swift in Sources */,
@@ -613,6 +637,7 @@
 				65ECCEA31D350BEC00D0307C /* LCRemoveDuplicatesFromListTest.swift in Sources */,
 				65ECCEA71D350BEC00D0307C /* LCReverseLinkedListTest.swift in Sources */,
 				65ECCE5D1D350BD400D0307C /* LCCheckPowerOf2.swift in Sources */,
+				65ECCEBC1D3516B500D0307C /* LCLowestCommonAncestorTest.swift in Sources */,
 				65ECCE9E1D350BEC00D0307C /* LCFirstPositionTest.swift in Sources */,
 				65ECCE951D350BEC00D0307C /* LCAnagramsTest.swift in Sources */,
 				65ECCEB11D350BEC00D0307C /* LCWordLadderTest.swift in Sources */,
@@ -638,6 +663,7 @@
 				65ECCEAB1D350BEC00D0307C /* LCSubsetsTest.swift in Sources */,
 				65ECCE9F1D350BEC00D0307C /* LCFlipBitsTest.swift in Sources */,
 				65ECCE2B1D350BD400D0307C /* LCQueueItem.swift in Sources */,
+				65ECCEBD1D35172300D0307C /* LCLowestCommonAncestor.swift in Sources */,
 				65ECCE961D350BEC00D0307C /* LCBalancedTreeTest.swift in Sources */,
 				65ECCE3D1D350BD400D0307C /* LCBSTValidation.swift in Sources */,
 				65ECCE4D1D350BD400D0307C /* LCSubarraySum.swift in Sources */,

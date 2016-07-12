@@ -84,4 +84,24 @@ class LCTreeNodeHelper: NSObject {
         
         return root
     }
+    
+    class func treeNode(root: LCTreeNode, value: Int) -> LCTreeNode? {
+        if root.val == value {
+            return root
+        }
+        
+        if root.left != nil {
+            if let left = LCTreeNodeHelper.treeNode(root.left!, value: value) {
+                return left
+            }
+        }
+        
+        if root.right != nil {
+            if let right = LCTreeNodeHelper.treeNode(root.right!, value: value) {
+                return right
+            }
+        }
+        
+        return nil
+    }
 }

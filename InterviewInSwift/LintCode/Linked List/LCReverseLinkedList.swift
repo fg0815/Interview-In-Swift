@@ -6,7 +6,7 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 // Reverse Linked List
 // http://www.lintcode.com/en/problem/reverse-linked-list/
