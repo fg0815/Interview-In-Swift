@@ -39,19 +39,21 @@ class LCWordLadder: NSObject {
             length += 1
             let size = queue.size()
             for _ in 0 ..< size {
-                if let word = queue.dequeue() {
-                    for nextWord in getNextWords(word, dict: dict) {
-                        if hashSet.contains(nextWord) {
-                            continue
-                        }
-                        
-                        if nextWord == end {
-                            return length
-                        }
-                        
-                        hashSet.insert(nextWord)
-                        queue.enqueue(nextWord)
+                guard let word = queue.dequeue() else {
+                    preconditionFailure("word is expected")
+                }
+                
+                for nextWord in getNextWords(word, dict: dict) {
+                    if hashSet.contains(nextWord) {
+                        continue
                     }
+                    
+                    if nextWord == end {
+                        return length
+                    }
+                    
+                    hashSet.insert(nextWord)
+                    queue.enqueue(nextWord)
                 }
             }
         }

@@ -36,13 +36,14 @@ class LCQueue<T> {
      - returns: the front item of the queue
      */
     func dequeue() -> T? {
-        if let newHead: LCQueueItem<T> = front.next {
-            front = newHead
-            count -= 1
-            return newHead.value
+        guard let newHead: LCQueueItem<T> = front.next  else {
+            return nil
         }
         
-        return nil
+        front = newHead
+        count -= 1
+        
+        return newHead.value
     }
     
     /**
