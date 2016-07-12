@@ -38,12 +38,12 @@ class LCDepthTree: NSObject {
 
 extension LCDepthTree {
     class func maxDepth(root: LCTreeNode?) -> Int {
-        if root == nil {
+        guard let root = root else {
             return 0
         }
         
-        let left = LCDepthTree.maxDepth(root!.left)
-        let right = LCDepthTree.maxDepth(root!.right)
+        let left = LCDepthTree.maxDepth(root.left)
+        let right = LCDepthTree.maxDepth(root.right)
         
         return max(left, right) + 1
     }
