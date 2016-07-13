@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Refer to `LCMergeTwoLists`
+// Merge two sorted lists
+
 class LKIMergeTwoLists: NSObject {
     class func mergeTwoLists(l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
         return LCMergeTwoLists.mergeTwoLists(l1, l2: l2)
