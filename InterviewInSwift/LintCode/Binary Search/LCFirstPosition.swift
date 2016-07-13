@@ -18,10 +18,10 @@ class LCFirstPosition: NSObject {
         if nums.count == 0 {
             return -1
         }
-        
+
         var start = 0
         var end = nums.count - 1
-        
+
         while start + 1 < end {
             let mid = start + (end - start) / 2
             if nums[mid] == target {
@@ -32,15 +32,15 @@ class LCFirstPosition: NSObject {
                 end = mid
             }
         }
-        
+
         if nums[start] == target {
             return start
         }
-        
+
         if nums[end] == target {
             return end
         }
-        
+
         return -1
     }
 }

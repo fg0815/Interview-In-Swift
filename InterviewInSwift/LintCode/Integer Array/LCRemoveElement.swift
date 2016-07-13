@@ -17,10 +17,10 @@ class LCRemoveElement: NSObject {
      */
     class func removeElement(A: [Int], elem: Int) -> Int {
         var mutableA = A
-        
+
         var i = 0
         var pointer = mutableA.count - 1
-        
+
         while i <= pointer {
             if mutableA[i] == elem {
                 mutableA[i] = mutableA[pointer]
@@ -29,7 +29,7 @@ class LCRemoveElement: NSObject {
                 i+=1
             }
         }
-        
+
         return pointer + 1
     }
 }

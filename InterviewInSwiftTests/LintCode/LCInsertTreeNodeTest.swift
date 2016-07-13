@@ -31,17 +31,17 @@ extension LCInsertTreeNodeTest {
         let node1 = LCTreeNode.init(val: 1, left: node3, right: nil)
         let node4 = LCTreeNode.init(val: 4)
         let node2 = LCTreeNode.init(val: 2, left: node1, right: node4)
-        
+
         return node2
     }
-    
+
     func expectedTree1() -> LCTreeNode {
         let node3 = LCTreeNode.init(val: 3)
         let node6 = LCTreeNode.init(val: 6)
         let node1 = LCTreeNode.init(val: 1, left: node3, right: node6)
         let node4 = LCTreeNode.init(val: 4)
         let node2 = LCTreeNode.init(val: 2, left: node1, right: node4)
-        
+
         return node2
     }
 }

@@ -12,30 +12,30 @@ import UIKit
 // http://www.lintcode.com/en/problem/find-peak-element/
 class LCFindPeakElement: NSObject {
     /**
-     * @param A: An integers array.
+     * @param nums: An integers array.
      * @return: return any of peek positions.
      */
-    class func findPeak(A: [Int]) -> Int {
-        let n = A.count;
+    class func findPeak(nums: [Int]) -> Int {
+        let n = nums.count
         if n == 1 {
             return 0
         }
-        
-        var start = 0;
-        var end = n - 1;
-        var mid = 0;
-        
+
+        var start = 0
+        var end = n - 1
+        var mid = 0
+
         while start <= end {
             mid = start + (end - start) / 2
-            if (mid == 0 || A[mid] >= A[mid - 1]) && (mid == n - 1 || A[mid] >= A[mid + 1]) {
+            if (mid == 0 || nums[mid] >= nums[mid - 1]) && (mid == n - 1 || nums[mid] >= nums[mid + 1]) {
                 return mid
-            } else if mid > 0 && A[mid-1] > A[mid] {
+            } else if mid > 0 && nums[mid-1] > nums[mid] {
                 end = mid - 1
             } else {
                 start = mid + 1
             }
         }
-        
+
         return mid
     }
 }

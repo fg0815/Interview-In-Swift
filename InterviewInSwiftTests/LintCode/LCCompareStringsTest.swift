@@ -16,17 +16,17 @@ class LCCompareStringsTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testCompareStrings() {
         let A1 = "ABCD"
         let B1 = "ACD"
         XCTAssertTrue(LCCompareStrings.compareStrings(A1, B: B1))
-        
+
         let A2 = "ABCD"
         let B2 = "AABC"
         XCTAssertFalse(LCCompareStrings.compareStrings(A2, B: B2))

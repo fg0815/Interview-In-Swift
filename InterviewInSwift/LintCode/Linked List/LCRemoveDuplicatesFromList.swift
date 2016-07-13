@@ -17,7 +17,7 @@ class LCRemoveDuplicatesFromList: NSObject {
      */
     class func deleteDuplicates(head: LCLinkedListNode) -> LCLinkedListNode {
         var node = head
-        
+
         while node.next != nil {
             if node.val == node.next!.val {
                 node.next = node.next!.next
@@ -25,7 +25,7 @@ class LCRemoveDuplicatesFromList: NSObject {
                 node = node.next!
             }
         }
-        
+
         return head
     }
 }

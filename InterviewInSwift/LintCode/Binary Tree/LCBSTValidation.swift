@@ -14,24 +14,24 @@ import Foundation
 class LCBSTValidation: NSObject {
     private var lastVal = Int.min
     private var firstNode = true
-    
+
     func isValidBST(root: LCTreeNode?) -> Bool {
         if let node = root {
             if !isValidBST(node.left) {
                 return false
             }
-            
+
             if !firstNode && lastVal >= node.val {
                 return false
             }
-            
+
             firstNode = false
             lastVal = node.val
             if (!isValidBST(node.right)) {
                 return false
             }
         }
-        
+
         return true
     }
 }

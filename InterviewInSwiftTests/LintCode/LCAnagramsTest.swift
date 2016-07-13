@@ -16,23 +16,23 @@ class LCAnagramsTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testAnagram() {
         let s1 = "abcd"
         let t1 = "dcab"
-        XCTAssertTrue(LCAnagrams.anagram(s1, t: t1));
-        
+        XCTAssertTrue(LCAnagrams.anagram(s1, stringB: t1))
+
         let s2 = "ab"
         let t2 = "ab"
-        XCTAssertTrue(LCAnagrams.anagram(s2, t: t2));
-        
+        XCTAssertTrue(LCAnagrams.anagram(s2, stringB: t2))
+
         let s3 = "ab"
         let t3 = "ac"
-        XCTAssertFalse(LCAnagrams.anagram(s3, t: t3));
+        XCTAssertFalse(LCAnagrams.anagram(s3, stringB: t3))
     }
 }

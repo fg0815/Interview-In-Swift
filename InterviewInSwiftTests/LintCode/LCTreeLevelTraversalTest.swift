@@ -28,30 +28,30 @@ class LCTreeLevelTraversalTest: XCTestCase {
      *  ]
      */
     func testLevelOrderBFS() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfs)
-        XCTAssertTrue(treeResult1 == expectedTree1()) 
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFS)
+        XCTAssertTrue(treeResult1 == expectedTree1())
     }
-    
+
     func testLevelOrderDFS() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.dfs)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.DFS)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
-    
+
     func testLevelOrderBFSWithTwoQueues() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsWithTwoQueues)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFSWithTwoQueues)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
-    
+
     func testLevelOrderBFSQueueWithDummyNode() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsQueueWithDummyNode)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFSQueueWithDummyNode)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
-    
+
     func tree1() -> LCTreeNode {
         return LCTreeNodeHelper.createTreeNode("3,9,20,#,#,15,7")
     }
-    
+
     func expectedTree1() -> [[Int]] {
-        return [[3], [9,20], [15,7]]
+        return [[3], [9, 20], [15, 7]]
     }
 }

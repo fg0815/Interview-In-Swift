@@ -14,32 +14,32 @@ class LCLowestCommonAncestor: NSObject {
      * @param A and B: two nodes in a Binary.
      * @return: Return the least common ancestor(LCA) of the two nodes.
      */
-    class func lowestCommonAncestor(root: LCTreeNode?, A: LCTreeNode, B: LCTreeNode) -> LCTreeNode? {
+    class func lowestCommonAncestor(root: LCTreeNode?, node1: LCTreeNode, node2: LCTreeNode) -> LCTreeNode? {
         guard let root = root else {
             return nil
         }
-        
-        if root == A || root == B {
+
+        if root == node1 || root == node2 {
             return root
         }
-        
+
         // Divide
-        let left = LCLowestCommonAncestor.lowestCommonAncestor(root.left, A: A, B: B)
-        let right = LCLowestCommonAncestor.lowestCommonAncestor(root.right, A: A, B: B)
-        
+        let left = LCLowestCommonAncestor.lowestCommonAncestor(root.left, node1: node1, node2: node2)
+        let right = LCLowestCommonAncestor.lowestCommonAncestor(root.right, node1: node1, node2: node2)
+
         // Conquer
         if left != nil && right != nil {
             return root
         }
-        
+
         if left != nil {
             return left
         }
-        
+
         if right != nil {
             return right
         }
-        
+
         return nil
     }
 }

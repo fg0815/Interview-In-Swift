@@ -28,6 +28,6 @@ class LCInsertTreeNode: NSObject {
         } else {
             return nil
         }
-        
+
     }
 }

@@ -9,7 +9,7 @@
 import XCTest
 
 class LCBalancedTreeTest: XCTestCase {
-    /** 
+    /**
      *  Given binary tree A = {3,9,20,#,#,15,7}, B = {3,#,20,15,7}
      *
      *          A)  3            B)    3
@@ -23,9 +23,9 @@ class LCBalancedTreeTest: XCTestCase {
     func testIsBalanced() {
         let testA = LCTreeNodeHelper.createTreeNode("3,9,20,#,#,15,7")
         let testB = LCTreeNodeHelper.createTreeNode("3,#,20,15,7")
-        
+
         XCTAssertTrue(LCBalancedTree.isBalanced(testA))
         XCTAssertFalse(LCBalancedTree.isBalanced(testB))
     }
-    
+
 }

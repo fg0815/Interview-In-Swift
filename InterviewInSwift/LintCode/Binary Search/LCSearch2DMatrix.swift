@@ -19,18 +19,18 @@ class LCSearch2DMatrix: NSObject {
         if (matrix.count == 0) {
             return false
         }
-        
+
         if (matrix[0].count == 0) {
             return false
         }
-        
+
         // from bottom left to top right
         let n = matrix.count
         let m = matrix[0].count
         var x = n - 1
         var y = 0
         var count = 0
-        
+
         while x >= 0 && y < m {
             if matrix[x][y] < target {
                 y += 1
@@ -42,7 +42,7 @@ class LCSearch2DMatrix: NSObject {
                 y += 1
             }
         }
-        
+
         return count > 0
     }
 }

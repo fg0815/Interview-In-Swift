@@ -16,14 +16,14 @@ class LCRemoveElementTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testRemoveElement() {
-        XCTAssertTrue(LCRemoveElement.removeElement([0,4,4,0,0,2,4,4], elem: 4) == 4)
+        XCTAssertTrue(LCRemoveElement.removeElement([0, 4,4, 0,0, 2,4, 4], elem: 4) == 4)
     }
 
 }

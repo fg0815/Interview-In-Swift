@@ -11,28 +11,28 @@ import Foundation
 // http://www.lintcode.com/en/problem/two-strings-are-anagrams/
 class LCAnagrams: NSObject {
     /**
-     * @param s: The first string
-     * @param b: The second string
+     * @param stringA: The first string
+     * @param stringB: The second string
      * @return true or false
      */
-    class func anagram(s: String, t: String) -> Bool {
-        if s.characters.count != t.characters.count {
+    class func anagram(stringA: String, stringB: String) -> Bool {
+        if stringA.characters.count != stringB.characters.count {
             return false
         }
-        
+
         var dictionary = [String : Int]()
-        
-        for character in s.characters {
+
+        for character in stringA.characters {
             if var count = dictionary[String(character)] {
                 count = count + 1
                 dictionary[String(character)] = count
             } else {
                 dictionary[String(character)] = 1
             }
-            
+
         }
-        
-        for character in t.characters {
+
+        for character in stringB.characters {
             if var count = dictionary[String(character)] {
                 count = count - 1
                 dictionary[String(character)] = count
@@ -43,9 +43,9 @@ class LCAnagrams: NSObject {
             } else {
                 return false
             }
-            
+
         }
-        
+
         return true
     }
 }

@@ -20,10 +20,10 @@ class LCRemoveNodeFromList: NSObject {
         if n <= 0 {
             return nil
         }
-        
+
         let tempStart = LCLinkedListNode.init(val: 0)
         tempStart.next = head
-        
+
         var preDelete: LCLinkedListNode? = tempStart
         var current: LCLinkedListNode? = head
         for _ in 0..<n {
@@ -33,14 +33,14 @@ class LCRemoveNodeFromList: NSObject {
                 current = current!.next
             }
         }
-        
+
         while current != nil {
             current = current!.next
             preDelete = preDelete!.next
         }
-        
+
         preDelete!.next = preDelete!.next!.next
-        
+
         return tempStart.next
     }
 }

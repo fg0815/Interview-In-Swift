@@ -17,23 +17,23 @@ class LCUniquePaths {
         if m == 0 || n == 0 {
             return 0
         }
-        
+
         var sum = Array(count: m, repeatedValue: Array(count: n, repeatedValue: 0))
-        
+
         for i in 0..<m {
             sum[i][0] = 1
         }
-        
+
         for i in 0..<n {
             sum[0][i] = 1
         }
-        
+
         for i in 1..<m {
             for j in 1..<n {
                 sum[i][j] = sum[i - 1][j] + sum[i][j - 1]
             }
         }
-        
+
         return sum[m - 1][n - 1]
     }
 }

@@ -11,11 +11,11 @@ import Foundation
 class LCLinkedListNode: NSObject {
     var val: Int
     var next: LCLinkedListNode?
-    
+
     init(val: Int) {
         self.val = val
     }
-    
+
     init(val: Int, next: LCLinkedListNode) {
         self.val = val
         self.next = next

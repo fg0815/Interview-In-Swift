@@ -22,18 +22,17 @@ class LCPermutationsTest: XCTestCase {
      *     ]
      *
      */
-    
-    static let test1 = [1,2,3]
-    static let expectedResult1 = [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
-    
+
+    static let test1 = [1, 2,3]
+    static let expectedResult1 = [[1, 2,3], [1, 3,2], [2, 1,3], [2, 3,1], [3, 1,2], [3, 2,1]]
+
     func testPermuteNonRecursion() {
         XCTAssertTrue(LCPermutations.permute(LCPermutationsTest.test1) == LCPermutationsTest.expectedResult1)
     }
-    
+
     func testPermute() {
         let permutations = LCPermutations()
         XCTAssertTrue(permutations.permute(LCPermutationsTest.test1) == LCPermutationsTest.expectedResult1)
     }
 
 }
-

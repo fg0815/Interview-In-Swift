@@ -17,7 +17,7 @@ class LCSubsets: NSObject {
         let n = nums.count
         var sorted = nums
         sorted.sortInPlace()
-        
+
         // 1 << n is 2^n
         // each subset equals to an binary integer between 0 .. 2^n - 1
         // 0 -> 000 -> []
@@ -32,10 +32,10 @@ class LCSubsets: NSObject {
                     subset.append(sorted[j])
                 }
             }
-            
+
             result.append(subset)
         }
-    
-        return result;
+
+        return result
     }
 }

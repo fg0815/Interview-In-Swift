@@ -18,13 +18,13 @@ class LCFlipBits: NSObject {
      */
     class func bitSwapRequired(a: Int, b: Int) -> Int {
         var count = 0
-        
+
         var c = a ^ b
         while c != 0 {
             count += c & 1
             c = c >> 1
         }
-        
+
         return count
     }
 }

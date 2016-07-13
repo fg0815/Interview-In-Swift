@@ -19,22 +19,22 @@ class LCSubarraySum: NSObject {
         let len = nums.count
         var ans = [Int]()
         var map = [Int : Int]()
-        
+
         map[0] = -1
-        
+
         var sum = 0
         for i in 0..<len {
             sum += nums[i]
-            
+
             if let value = map[sum] {
                 ans.append(value + 1)
                 ans.append(i)
                 return ans
             }
-            
+
             map[sum] = i
         }
-        
+
         return ans
     }
 }

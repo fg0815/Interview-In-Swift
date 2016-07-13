@@ -24,7 +24,7 @@ class LCReverseLinkedList: NSObject {
             prev = current
             current = temp
         }
-        
+
         return prev!
     }
 }

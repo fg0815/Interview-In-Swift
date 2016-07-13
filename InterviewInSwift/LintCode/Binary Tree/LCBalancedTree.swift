@@ -19,21 +19,21 @@ class LCBalancedTree: NSObject {
     class func isBalanced(root: LCTreeNode) -> Bool {
         return LCBalancedTree.maxDepth(root) != -1
     }
-    
+
     private class func maxDepth(root: LCTreeNode?) -> Int {
         if let node = root {
             let left = LCDepthTree.maxDepth(node.left)
             let right = LCDepthTree.maxDepth(node.right)
-            
+
             if (left == -1 || right == -1 || abs(left - right) > 1) {
                 return -1
             }
-            
+
             return max(left, right) + 1
         } else {
             return 0
         }
-        
-        
+
+
     }
 }

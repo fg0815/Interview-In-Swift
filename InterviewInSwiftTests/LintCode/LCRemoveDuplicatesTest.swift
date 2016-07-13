@@ -14,7 +14,7 @@ class LCRemoveDuplicatesTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
@@ -23,6 +23,6 @@ class LCRemoveDuplicatesTest: XCTestCase {
     // Given input array A = [1,1,2],
     // Your function should return length = 2, and A is now [1,2].
     func testRemoveDuplicates() {
-        XCTAssertTrue(LCRemoveDuplicates.removeDuplicates([1,1,2]) == 2)
+        XCTAssertTrue(LCRemoveDuplicates.removeDuplicates([1, 1,2]) == 2)
     }
 }

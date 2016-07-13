@@ -14,10 +14,10 @@ class LCMergeTwoLists: NSObject {
     class func mergeTwoLists(l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
         var mutableL1: LCLinkedListNode? = l1
         var mutableL2: LCLinkedListNode? = l2
-        
+
         let newList = LCLinkedListNode.init(val: 0)
         var temp = newList
-        
+
         while mutableL1 != nil && mutableL2 != nil {
             if (mutableL1!.val < mutableL2!.val) {
                 temp.next = mutableL1!
@@ -26,16 +26,16 @@ class LCMergeTwoLists: NSObject {
                 temp.next = mutableL2!
                 mutableL2 = mutableL2!.next
             }
-            
+
             temp = temp.next!
         }
-        
+
         if (mutableL1 != nil) {
             temp.next = mutableL1!
         } else {
             temp.next = mutableL2!
         }
-        
+
         return newList.next!
     }
 }

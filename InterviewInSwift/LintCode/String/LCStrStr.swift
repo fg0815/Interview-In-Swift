@@ -25,14 +25,14 @@ class LCStrStr: NSObject {
                     break
                 }
             }
-            
+
             if count + 1 == target.characters.count {
                 return i
             }
-            
+
         }
-        
+
         return -1
-        
+
     }
 }

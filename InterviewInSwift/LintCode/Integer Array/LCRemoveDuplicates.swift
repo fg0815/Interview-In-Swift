@@ -18,18 +18,18 @@ class LCRemoveDuplicates: NSObject {
         if nums.count == 0 {
             return 0
         }
-        
+
         var size = 0
         var mutableNums = nums
-        
+
         for i in 0..<mutableNums.count {
             if mutableNums[i] != mutableNums[size] {
                 size+=1
-                mutableNums[size] = mutableNums[i];
+                mutableNums[size] = mutableNums[i]
             }
         }
-        
-        return size + 1;
-        
+
+        return size + 1
+
     }
 }

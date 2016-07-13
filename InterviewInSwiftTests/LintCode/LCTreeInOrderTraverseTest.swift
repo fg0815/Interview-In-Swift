@@ -22,14 +22,14 @@ class LCTreeInOrderTraverseTest: XCTestCase {
      */
     func testEnumerateTreeNode() {
         let test1 = "1,2,3,4,5,#,#"
-        let expectedTest1 = [4,2,5,1,3]
+        let expectedTest1 = [4, 2,5, 1,3]
         let node1 = LCTreeNodeHelper.createTreeNode(test1)
         var index = 0
-        
+
         LCTreeInOrderTraverse.enumerateTreeNode(node1) { (currentValue) in
             XCTAssertTrue(currentValue == expectedTest1[index])
             index += 1
         }
-        
+
     }
 }

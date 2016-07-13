@@ -9,23 +9,23 @@
 import XCTest
 
 class LCFindPeakElementTest: XCTestCase {
-    
+
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     // Given [1, 2, 1, 3, 4, 5, 7, 6]
     // Return index 1 (which is number 2) or 6 (which is number 7)
     func testFindPeak() {
         let nums1 = [1, 2, 1, 3, 4, 5, 7, 6]
         XCTAssertTrue(LCFindPeakElement.findPeak(nums1) == 1 || LCFindPeakElement.findPeak(nums1) == 6)
-        
+
         // let nums2 = [1, 2, 1, 3, 4, 5, 7]
        // XCTAssertTrue(LCFindPeakElement.findPeak(nums2) == 1)
     }

@@ -23,10 +23,10 @@ class LCTreeNodeHelperTest: XCTestCase {
         let node2 = LCTreeNode.init(val: 2, left: node4, right: node5)
         let node3 = LCTreeNode.init(val: 3)
         let node1 = LCTreeNode.init(val: 1, left: node2, right: node3)
-        
+
         let node = LCTreeNodeHelper.createTreeNode("1,2,3,4,5,#,#")
-        
+
         XCTAssertTrue(LCTreeNodeHelper.compare(node1, node2: node))
     }
- 
+
 }

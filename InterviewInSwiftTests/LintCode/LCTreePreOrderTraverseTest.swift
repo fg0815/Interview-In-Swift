@@ -25,11 +25,11 @@ class LCTreePreOrderTraverseTest: XCTestCase {
         let expectedTest1 = [1, 2, 4, 5, 3]
         let node1 = LCTreeNodeHelper.createTreeNode(test1)
         var index = 0
-        
+
         LCTreePreOrderTraverse.enumerateTreeNode(node1) { (currentValue) in
             XCTAssertTrue(currentValue == expectedTest1[index])
             index += 1
         }
-        
+
     }
 }

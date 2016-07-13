@@ -17,22 +17,22 @@ class LCStrStrTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testStrStr() {
         let source1 = "source"
         let target1 = "target"
         XCTAssertTrue(LCStrStr.strStr(source1, target: target1) == -1)
-        
+
         let source2 = "abcdabcdefg"
         let target2 = "bcd"
         XCTAssertTrue(LCStrStr.strStr(source2, target: target2) == 1)
     }
 
-    
+
 
 }

@@ -21,19 +21,19 @@ class LCWordLadder: NSObject {
         if dict.count == 0 {
             return 0
         }
-        
+
         if start == end {
             return 1
         }
-        
+
         dict.insert(start)
         dict.insert(end)
-        
+
         var hashSet = Set<String>()
         let queue = LCQueue<String>()
         queue.enqueue(start)
         hashSet.insert(start)
-        
+
         var length = 1
         while !queue.isEmpty() {
             length += 1
@@ -44,18 +44,18 @@ class LCWordLadder: NSObject {
                         if hashSet.contains(nextWord) {
                             continue
                         }
-                        
+
                         if nextWord == end {
                             return length
                         }
-                        
+
                         hashSet.insert(nextWord)
                         queue.enqueue(nextWord)
                     }
                 }
             }
         }
-        
+
         return 0
     }
 
@@ -74,18 +74,18 @@ class LCWordLadder: NSObject {
                 }
 
                 let nextWord = replace(word, index: i, c: Character(UnicodeScalar(c)))
-                
+
                 if dict.contains(nextWord) {
                     nextWords.append(nextWord)
                 }
-                
+
                 i += 1
             }
         }
-        
+
         return nextWords
     }
-    
+
     // replace character of a string at given index to a given character
     // return a new string
     private func replace(s: String, index: Int, c: Character) -> String {
@@ -96,13 +96,11 @@ class LCWordLadder: NSObject {
 
 }
 
-extension Character
-{
-    func unicodeScalarCodePoint() -> UInt32
-    {
+extension Character {
+    func unicodeScalarCodePoint() -> UInt32 {
         let characterString = String(self)
         let scalars = characterString.unicodeScalars
-        
+
         return scalars[scalars.startIndex].value
     }
 }

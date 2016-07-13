@@ -12,7 +12,7 @@ import UIKit
 // http://www.lintcode.com/en/problem/search-range-in-binary-search-tree/
 class LCBSTSearchRange: NSObject {
     private var result: [Int]!
-    
+
     /**
      * @param root: The root of the binary search tree.
      * @param k1 and k2: range k1 to k2.
@@ -23,17 +23,17 @@ class LCBSTSearchRange: NSObject {
         helper(root, k1: k1, k2: k2)
         return result
     }
-    
+
     private func helper(root: LCTreeNode?, k1: Int, k2: Int) {
         if let node = root {
             if node.val > k1 {
                 helper(node.left, k1: k1, k2: k2)
             }
-            
+
             if node.val >= k1 && node.val <= k2 {
                 result.append(node.val)
             }
-            
+
             if node.val < k2 {
                 helper(node.right, k1: k1, k2: k2)
             }

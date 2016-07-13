@@ -17,16 +17,16 @@ class LCCompareStrings: NSObject {
      */
     class func compareStrings(A: String, B: String) -> Bool {
         var dictionary = [String : Int]()
-        
+
         for character in A.characters {
             if var count = dictionary[String(character)] {
-                count = count + 1;
+                count = count + 1
                 dictionary[String(character)] = count
             } else {
                 dictionary[String(character)] = 1
             }
         }
-        
+
         for character in B.characters {
             if var count = dictionary[String(character)] {
                 count = count - 1
@@ -38,7 +38,7 @@ class LCCompareStrings: NSObject {
                 return false
             }
         }
-        
+
         return true
     }
 

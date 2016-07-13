@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-               BuildableName = "SwiftInterview.app"
+               BuildableName = "InterviewInSwift.app"
                BlueprintName = "InterviewInSwift"
                ReferencedContainer = "container:InterviewInSwift.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "SwiftInterview.app"
+            BuildableName = "InterviewInSwift.app"
             BlueprintName = "InterviewInSwift"
             ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "SwiftInterview.app"
+            BuildableName = "InterviewInSwift.app"
             BlueprintName = "InterviewInSwift"
             ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>
@@ -90,7 +90,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "654C10361D1E9027007F1EA1"
-            BuildableName = "SwiftInterview.app"
+            BuildableName = "InterviewInSwift.app"
             BlueprintName = "InterviewInSwift"
             ReferencedContainer = "container:InterviewInSwift.xcodeproj">
          </BuildableReference>

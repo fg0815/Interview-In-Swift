@@ -15,15 +15,15 @@ class LCFirstPositionTest: XCTestCase {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testBinarySearch() {
         let sortedArray = [1, 2, 3, 3, 4, 5, 10]
-        
+
         XCTAssertTrue(LCFirstPosition.binarySearch(sortedArray, target: 3) == 2)
     }
 

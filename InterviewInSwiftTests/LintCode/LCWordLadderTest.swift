@@ -20,7 +20,7 @@ class LCWordLadderTest: XCTestCase {
      */
     func testLadderLength() {
         let wordLadder = LCWordLadder()
-        var set = Set(["hot","dot","dog","lot","log"])
+        var set = Set(["hot", "dot", "dog", "lot", "log"])
         XCTAssertTrue(wordLadder.ladderLength("hit", end: "cog", dict: &set) == 5)
     }
 }
