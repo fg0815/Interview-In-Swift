@@ -142,6 +142,9 @@
 		65ECCF001D38661000D0307C /* LC205IsomorphicStringsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEFF1D38661000D0307C /* LC205IsomorphicStringsTest.swift */; };
 		65ECCF011D38668C00D0307C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCEFC1D3858B600D0307C /* String+Extensions.swift */; };
 		65ECCF031D38671C00D0307C /* LKIIsomorphicStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF021D38671C00D0307C /* LKIIsomorphicStrings.swift */; };
+		65ECCF0B1D38AD6300D0307C /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */; };
+		65ECCF0D1D38AFAD00D0307C /* LCTwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */; };
+		65ECCF0E1D38AFFA00D0307C /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -248,6 +251,8 @@
 		65ECCEFC1D3858B600D0307C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		65ECCEFF1D38661000D0307C /* LC205IsomorphicStringsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC205IsomorphicStringsTest.swift; sourceTree = "<group>"; };
 		65ECCF021D38671C00D0307C /* LKIIsomorphicStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKIIsomorphicStrings.swift; sourceTree = "<group>"; };
+		65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSum.swift; sourceTree = "<group>"; };
+		65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSumTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -374,6 +379,7 @@
 				65ECCE0B1D350BD400D0307C /* LCRemoveDuplicates.swift */,
 				65ECCE0C1D350BD400D0307C /* LCRemoveElement.swift */,
 				65ECCE0D1D350BD400D0307C /* LCSubarraySum.swift */,
+				65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */,
 			);
 			path = "Integer Array";
 			sourceTree = "<group>";
@@ -485,6 +491,7 @@
 				65ECCE911D350BEC00D0307C /* LCUniquePathsTest.swift */,
 				65ECCE921D350BEC00D0307C /* LCWordLadderTest.swift */,
 				65ECCEF21D37AE4B00D0307C /* LCPermutationsIITest.swift */,
+				65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */,
 			);
 			path = LintCode;
 			sourceTree = "<group>";
@@ -666,6 +673,7 @@
 				65ECCEC21D35209D00D0307C /* LC100SameTree.swift in Sources */,
 				65ECCE661D350BD400D0307C /* LCWordLadder.swift in Sources */,
 				65ECCE501D350BD400D0307C /* LCLinkedListNode.swift in Sources */,
+				65ECCF0B1D38AD6300D0307C /* LCTwoSum.swift in Sources */,
 				65ECCE281D350BD400D0307C /* LCQueue.swift in Sources */,
 				65ECCE301D350BD400D0307C /* LCFirstPosition.swift in Sources */,
 				65ECCE321D350BD400D0307C /* LCSearch2DMatrix.swift in Sources */,
@@ -731,6 +739,7 @@
 				65ECCE3B1D350BD400D0307C /* LCBSTSearchRange.swift in Sources */,
 				65ECCEC61D3522B000D0307C /* LC100SameTreeTest.swift in Sources */,
 				65ECCF011D38668C00D0307C /* String+Extensions.swift in Sources */,
+				65ECCF0D1D38AFAD00D0307C /* LCTwoSumTest.swift in Sources */,
 				65ECCEAC1D350BEC00D0307C /* LCTreeInOrderTraverseTest.swift in Sources */,
 				65ECCEA81D350BEC00D0307C /* LCSearch2DMatrixTest.swift in Sources */,
 				65ECCE411D350BD400D0307C /* LCInsertTreeNode.swift in Sources */,
@@ -780,6 +789,7 @@
 				65ECCE2B1D350BD400D0307C /* LCQueueItem.swift in Sources */,
 				65ECCEBD1D35172300D0307C /* LCLowestCommonAncestor.swift in Sources */,
 				65ECCEEB1D37A20B00D0307C /* LC244WordDistanceII.swift in Sources */,
+				65ECCF0E1D38AFFA00D0307C /* LCTwoSum.swift in Sources */,
 				65ECCE961D350BEC00D0307C /* LCBalancedTreeTest.swift in Sources */,
 				65ECCE3D1D350BD400D0307C /* LCBSTValidation.swift in Sources */,
 				65ECCE4D1D350BD400D0307C /* LCSubarraySum.swift in Sources */,
