@@ -8,6 +8,9 @@
 
 import Foundation
 
+// Refer to `LC244WordDistanceII`
+// Find the minimum distance between 2 words in a dictionary
+
 class LKIShortDistance: NSObject {
     class func shortDistance(words: [String], word1: String, word2: String) -> Int {
         let distance = LC244WordDistanceII.init(words: words)
