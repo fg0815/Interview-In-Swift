@@ -145,6 +145,11 @@
 		65ECCF0B1D38AD6300D0307C /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */; };
 		65ECCF0D1D38AFAD00D0307C /* LCTwoSumTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */; };
 		65ECCF0E1D38AFFA00D0307C /* LCTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */; };
+		65ECCF121D38B54D00D0307C /* LC254FactorCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF111D38B54D00D0307C /* LC254FactorCombinations.swift */; };
+		65ECCF161D3BA73C00D0307C /* LC007ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */; };
+		65ECCF191D3BA7E500D0307C /* LCReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */; };
+		65ECCF1B1D3BA95D00D0307C /* LCReverseIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */; };
+		65ECCF1C1D3BA97D00D0307C /* LCReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -253,6 +258,10 @@
 		65ECCF021D38671C00D0307C /* LKIIsomorphicStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LKIIsomorphicStrings.swift; sourceTree = "<group>"; };
 		65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSum.swift; sourceTree = "<group>"; };
 		65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCTwoSumTest.swift; sourceTree = "<group>"; };
+		65ECCF111D38B54D00D0307C /* LC254FactorCombinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC254FactorCombinations.swift; sourceTree = "<group>"; };
+		65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC007ReverseInteger.swift; sourceTree = "<group>"; };
+		65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCReverseInteger.swift; sourceTree = "<group>"; };
+		65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCReverseIntegerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -325,6 +334,7 @@
 		65ECCDF81D350BD400D0307C /* LintCode */ = {
 			isa = PBXGroup;
 			children = (
+				65ECCF171D3BA7D400D0307C /* Integer */,
 				65ECCDF91D350BD400D0307C /* Binary Search */,
 				65ECCDFE1D350BD400D0307C /* Binary Tree */,
 				65ECCE0A1D350BD400D0307C /* Integer Array */,
@@ -492,6 +502,7 @@
 				65ECCE921D350BEC00D0307C /* LCWordLadderTest.swift */,
 				65ECCEF21D37AE4B00D0307C /* LCPermutationsIITest.swift */,
 				65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */,
+				65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */,
 			);
 			path = LintCode;
 			sourceTree = "<group>";
@@ -519,6 +530,8 @@
 				65ECCEDE1D36ECDF00D0307C /* LC367ValidPerfectSquare.swift */,
 				65ECCEE71D374FDB00D0307C /* LC244WordDistanceII.swift */,
 				65ECCEF71D37C38D00D0307C /* LC205IsomorphicStrings.swift */,
+				65ECCF111D38B54D00D0307C /* LC254FactorCombinations.swift */,
+				65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -548,6 +561,14 @@
 				65ECCEFC1D3858B600D0307C /* String+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65ECCF171D3BA7D400D0307C /* Integer */ = {
+			isa = PBXGroup;
+			children = (
+				65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */,
+			);
+			path = Integer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -678,6 +699,8 @@
 				65ECCE301D350BD400D0307C /* LCFirstPosition.swift in Sources */,
 				65ECCE321D350BD400D0307C /* LCSearch2DMatrix.swift in Sources */,
 				65ECCE5C1D350BD400D0307C /* LCCheckPowerOf2.swift in Sources */,
+				65ECCF191D3BA7E500D0307C /* LCReverseInteger.swift in Sources */,
+				65ECCF161D3BA73C00D0307C /* LC007ReverseInteger.swift in Sources */,
 				65ECCE681D350BD400D0307C /* LCAnagrams.swift in Sources */,
 				65ECCE5A1D350BD400D0307C /* LCReverseLinkedList.swift in Sources */,
 				65ECCE481D350BD400D0307C /* LCRemoveDuplicates.swift in Sources */,
@@ -705,6 +728,7 @@
 				65ECCEBF1D351EB600D0307C /* LKIValidBST.swift in Sources */,
 				65ECCE3C1D350BD400D0307C /* LCBSTValidation.swift in Sources */,
 				65ECCE4C1D350BD400D0307C /* LCSubarraySum.swift in Sources */,
+				65ECCF121D38B54D00D0307C /* LC254FactorCombinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +758,7 @@
 				65ECCE531D350BD400D0307C /* LCAddTwoNumbers.swift in Sources */,
 				65ECCEA01D350BEC00D0307C /* LCInsertTreeNodeTest.swift in Sources */,
 				65ECCEAF1D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift in Sources */,
+				65ECCF1B1D3BA95D00D0307C /* LCReverseIntegerTest.swift in Sources */,
 				65ECCE2F1D350BD400D0307C /* LCFindPeakElement.swift in Sources */,
 				65ECCE591D350BD400D0307C /* LCRemoveNodeFromList.swift in Sources */,
 				65ECCE3B1D350BD400D0307C /* LCBSTSearchRange.swift in Sources */,
@@ -773,6 +798,7 @@
 				65ECCE371D350BD400D0307C /* LCTreeNodeHelper.swift in Sources */,
 				65ECCE9C1D350BEC00D0307C /* LCFindMinimumTest.swift in Sources */,
 				65ECCE571D350BD400D0307C /* LCRemoveDuplicatesFromList.swift in Sources */,
+				65ECCF1C1D3BA97D00D0307C /* LCReverseInteger.swift in Sources */,
 				65ECCE5F1D350BD400D0307C /* LCFlipBits.swift in Sources */,
 				65ECCE551D350BD400D0307C /* LCMergeTwoLists.swift in Sources */,
 				65ECCEEA1D37A14800D0307C /* LC244WordDistanceIITest.swift in Sources */,
