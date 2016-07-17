@@ -150,6 +150,9 @@
 		65ECCF191D3BA7E500D0307C /* LCReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */; };
 		65ECCF1B1D3BA95D00D0307C /* LCReverseIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */; };
 		65ECCF1C1D3BA97D00D0307C /* LCReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */; };
+		65ECCF1E1D3C322600D0307C /* LCPlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */; };
+		65ECCF221D3C514600D0307C /* LCPlusOneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */; };
+		65ECCF231D3C518D00D0307C /* LCPlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -262,6 +265,8 @@
 		65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC007ReverseInteger.swift; sourceTree = "<group>"; };
 		65ECCF181D3BA7E500D0307C /* LCReverseInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCReverseInteger.swift; sourceTree = "<group>"; };
 		65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCReverseIntegerTest.swift; sourceTree = "<group>"; };
+		65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPlusOne.swift; sourceTree = "<group>"; };
+		65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPlusOneTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -390,6 +395,7 @@
 				65ECCE0C1D350BD400D0307C /* LCRemoveElement.swift */,
 				65ECCE0D1D350BD400D0307C /* LCSubarraySum.swift */,
 				65ECCF0A1D38AD6300D0307C /* LCTwoSum.swift */,
+				65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */,
 			);
 			path = "Integer Array";
 			sourceTree = "<group>";
@@ -503,6 +509,7 @@
 				65ECCEF21D37AE4B00D0307C /* LCPermutationsIITest.swift */,
 				65ECCF0C1D38AFAD00D0307C /* LCTwoSumTest.swift */,
 				65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */,
+				65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */,
 			);
 			path = LintCode;
 			sourceTree = "<group>";
@@ -684,6 +691,7 @@
 				65ECCEF81D37C38D00D0307C /* LC205IsomorphicStrings.swift in Sources */,
 				65ECCE521D350BD400D0307C /* LCAddTwoNumbers.swift in Sources */,
 				65ECCEDF1D36ECDF00D0307C /* LC367ValidPerfectSquare.swift in Sources */,
+				65ECCF1E1D3C322600D0307C /* LCPlusOne.swift in Sources */,
 				65ECCE2E1D350BD400D0307C /* LCFindPeakElement.swift in Sources */,
 				65ECCEE61D374C0C00D0307C /* LKIValidPerfectSquare.swift in Sources */,
 				65ECCE581D350BD400D0307C /* LCRemoveNodeFromList.swift in Sources */,
@@ -767,6 +775,7 @@
 				65ECCF0D1D38AFAD00D0307C /* LCTwoSumTest.swift in Sources */,
 				65ECCEAC1D350BEC00D0307C /* LCTreeInOrderTraverseTest.swift in Sources */,
 				65ECCEA81D350BEC00D0307C /* LCSearch2DMatrixTest.swift in Sources */,
+				65ECCF221D3C514600D0307C /* LCPlusOneTest.swift in Sources */,
 				65ECCE411D350BD400D0307C /* LCInsertTreeNode.swift in Sources */,
 				65ECCE671D350BD400D0307C /* LCWordLadder.swift in Sources */,
 				65ECCE981D350BEC00D0307C /* LCBSTValidationTest.swift in Sources */,
@@ -803,6 +812,7 @@
 				65ECCE551D350BD400D0307C /* LCMergeTwoLists.swift in Sources */,
 				65ECCEEA1D37A14800D0307C /* LC244WordDistanceIITest.swift in Sources */,
 				65ECCEE41D3745A200D0307C /* LC367ValidPerfectSquare.swift in Sources */,
+				65ECCF231D3C518D00D0307C /* LCPlusOne.swift in Sources */,
 				65ECCEA91D350BEC00D0307C /* LCStrStrTest.swift in Sources */,
 				65ECCE6B1D350BD400D0307C /* LCCompareStrings.swift in Sources */,
 				65ECCE9D1D350BEC00D0307C /* LCFindPeakElementTest.swift in Sources */,

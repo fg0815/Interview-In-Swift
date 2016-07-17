@@ -12,5 +12,7 @@ class LCReverseIntegerTest: XCTestCase {
     func testReverseInteger() {
         XCTAssert(LCReverseInteger.reverseInteger(123) == 321)
         XCTAssert(LCReverseInteger.reverseInteger(-123) == -321)
+        XCTAssert(LCReverseInteger.reverseInteger(-1) == -1)
+        XCTAssert(LCReverseInteger.reverseInteger(0) == 0)
     }
 }
