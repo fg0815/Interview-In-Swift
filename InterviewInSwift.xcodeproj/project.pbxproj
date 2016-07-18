@@ -156,6 +156,10 @@
 		65ECCF251D3C64B600D0307C /* LC058LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */; };
 		65ECCF291D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */; };
 		65ECCF2A1D3C6EF100D0307C /* LC058LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */; };
+		65ECCF2E1D3C8E9B00D0307C /* LC050PowXN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */; };
+		65ECCF301D3C8F7B00D0307C /* LC050PowXNTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF2F1D3C8F7B00D0307C /* LC050PowXNTest.swift */; };
+		65ECCF311D3C908800D0307C /* LC050PowXN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */; };
+		65ECCF331D3C933200D0307C /* LC006ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF321D3C933200D0307C /* LC006ZigZagConversion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -272,6 +276,9 @@
 		65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPlusOneTest.swift; sourceTree = "<group>"; };
 		65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC058LengthOfLastWord.swift; sourceTree = "<group>"; };
 		65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC058LengthOfLastWordTest.swift; sourceTree = "<group>"; };
+		65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC050PowXN.swift; sourceTree = "<group>"; };
+		65ECCF2F1D3C8F7B00D0307C /* LC050PowXNTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC050PowXNTest.swift; sourceTree = "<group>"; };
+		65ECCF321D3C933200D0307C /* LC006ZigZagConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC006ZigZagConversion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -545,6 +552,7 @@
 				65ECCF111D38B54D00D0307C /* LC254FactorCombinations.swift */,
 				65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */,
 				65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */,
+				65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -557,6 +565,8 @@
 				65ECCEE91D37A14800D0307C /* LC244WordDistanceIITest.swift */,
 				65ECCEFF1D38661000D0307C /* LC205IsomorphicStringsTest.swift */,
 				65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */,
+				65ECCF2F1D3C8F7B00D0307C /* LC050PowXNTest.swift */,
+				65ECCF321D3C933200D0307C /* LC006ZigZagConversion.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -711,6 +721,7 @@
 				65ECCE661D350BD400D0307C /* LCWordLadder.swift in Sources */,
 				65ECCE501D350BD400D0307C /* LCLinkedListNode.swift in Sources */,
 				65ECCF0B1D38AD6300D0307C /* LCTwoSum.swift in Sources */,
+				65ECCF2E1D3C8E9B00D0307C /* LC050PowXN.swift in Sources */,
 				65ECCE281D350BD400D0307C /* LCQueue.swift in Sources */,
 				65ECCE301D350BD400D0307C /* LCFirstPosition.swift in Sources */,
 				65ECCE321D350BD400D0307C /* LCSearch2DMatrix.swift in Sources */,
@@ -775,11 +786,13 @@
 				65ECCE991D350BEC00D0307C /* LCCheckPowerOf2Test.swift in Sources */,
 				65ECCE531D350BD400D0307C /* LCAddTwoNumbers.swift in Sources */,
 				65ECCEA01D350BEC00D0307C /* LCInsertTreeNodeTest.swift in Sources */,
+				65ECCF331D3C933200D0307C /* LC006ZigZagConversion.swift in Sources */,
 				65ECCEAF1D350BEC00D0307C /* LCTreePreOrderTraverseTest.swift in Sources */,
 				65ECCF1B1D3BA95D00D0307C /* LCReverseIntegerTest.swift in Sources */,
 				65ECCE2F1D350BD400D0307C /* LCFindPeakElement.swift in Sources */,
 				65ECCE591D350BD400D0307C /* LCRemoveNodeFromList.swift in Sources */,
 				65ECCE3B1D350BD400D0307C /* LCBSTSearchRange.swift in Sources */,
+				65ECCF311D3C908800D0307C /* LC050PowXN.swift in Sources */,
 				65ECCEC61D3522B000D0307C /* LC100SameTreeTest.swift in Sources */,
 				65ECCF011D38668C00D0307C /* String+Extensions.swift in Sources */,
 				65ECCF0D1D38AFAD00D0307C /* LCTwoSumTest.swift in Sources */,
@@ -831,6 +844,7 @@
 				65ECCE3F1D350BD400D0307C /* LCDepthTree.swift in Sources */,
 				65ECCE391D350BD400D0307C /* LCBalancedTree.swift in Sources */,
 				65ECCEAB1D350BEC00D0307C /* LCSubsetsTest.swift in Sources */,
+				65ECCF301D3C8F7B00D0307C /* LC050PowXNTest.swift in Sources */,
 				65ECCE9F1D350BEC00D0307C /* LCFlipBitsTest.swift in Sources */,
 				65ECCE2B1D350BD400D0307C /* LCQueueItem.swift in Sources */,
 				65ECCEBD1D35172300D0307C /* LCLowestCommonAncestor.swift in Sources */,
