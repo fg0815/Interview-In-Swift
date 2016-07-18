@@ -153,6 +153,9 @@
 		65ECCF1E1D3C322600D0307C /* LCPlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */; };
 		65ECCF221D3C514600D0307C /* LCPlusOneTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */; };
 		65ECCF231D3C518D00D0307C /* LCPlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */; };
+		65ECCF251D3C64B600D0307C /* LC058LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */; };
+		65ECCF291D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */; };
+		65ECCF2A1D3C6EF100D0307C /* LC058LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -267,6 +270,8 @@
 		65ECCF1A1D3BA95D00D0307C /* LCReverseIntegerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCReverseIntegerTest.swift; sourceTree = "<group>"; };
 		65ECCF1D1D3C322600D0307C /* LCPlusOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPlusOne.swift; sourceTree = "<group>"; };
 		65ECCF211D3C514600D0307C /* LCPlusOneTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPlusOneTest.swift; sourceTree = "<group>"; };
+		65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC058LengthOfLastWord.swift; sourceTree = "<group>"; };
+		65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC058LengthOfLastWordTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,6 +544,7 @@
 				65ECCEF71D37C38D00D0307C /* LC205IsomorphicStrings.swift */,
 				65ECCF111D38B54D00D0307C /* LC254FactorCombinations.swift */,
 				65ECCF151D3BA73C00D0307C /* LC007ReverseInteger.swift */,
+				65ECCF241D3C64B600D0307C /* LC058LengthOfLastWord.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -550,6 +556,7 @@
 				65ECCEE21D372AF400D0307C /* LC367ValidPerfectSquareTest.swift */,
 				65ECCEE91D37A14800D0307C /* LC244WordDistanceIITest.swift */,
 				65ECCEFF1D38661000D0307C /* LC205IsomorphicStringsTest.swift */,
+				65ECCF281D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -685,6 +692,7 @@
 				65ECCE6C1D350BD400D0307C /* LCStrStr.swift in Sources */,
 				65ECCE641D350BD400D0307C /* LCSubsets.swift in Sources */,
 				65ECCE341D350BD400D0307C /* LCTreeNode.swift in Sources */,
+				65ECCF251D3C64B600D0307C /* LC058LengthOfLastWord.swift in Sources */,
 				65ECCE4E1D350BD400D0307C /* LCLinkedList.swift in Sources */,
 				65ECCE4A1D350BD400D0307C /* LCRemoveElement.swift in Sources */,
 				65ECCE621D350BD400D0307C /* LCPermutations.swift in Sources */,
@@ -749,8 +757,10 @@
 				65ECCE451D350BD400D0307C /* LCTreeLevelTraversal.swift in Sources */,
 				65ECCE6D1D350BD400D0307C /* LCStrStr.swift in Sources */,
 				65ECCEA21D350BEC00D0307C /* LCPermutationsTest.swift in Sources */,
+				65ECCF2A1D3C6EF100D0307C /* LC058LengthOfLastWord.swift in Sources */,
 				65ECCE651D350BD400D0307C /* LCSubsets.swift in Sources */,
 				65ECCEA51D350BEC00D0307C /* LCRemoveElementTest.swift in Sources */,
+				65ECCF291D3C6EC300D0307C /* LC058LengthOfLastWordTest.swift in Sources */,
 				65ECCEC31D3520CF00D0307C /* LC100SameTree.swift in Sources */,
 				65ECCE351D350BD400D0307C /* LCTreeNode.swift in Sources */,
 				65ECCEA61D350BEC00D0307C /* LCRemoveNodeFromListTest.swift in Sources */,

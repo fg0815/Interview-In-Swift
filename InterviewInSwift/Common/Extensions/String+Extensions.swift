@@ -15,4 +15,11 @@ extension String {
         
         return String(character)
     }
+    
+    subscript (index: Int) -> String {
+        let index = self.startIndex.advancedBy(index)
+        let character = self.characters[index]
+        
+        return String(character)
+    }
 }
