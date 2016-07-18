@@ -1,12 +1,7 @@
 language: objective-c
 osx_image: xcode7.3
-script:
-  - |
-    xcodebuild test \
-    -project InterviewInSwift.xcodeproj \
-    -scheme InterviewInSwift \
-    -sdk iphonesimulator \
-    -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+xcode_project: InterviewInSwift
+xcode_scheme: InterviewInSwift
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
