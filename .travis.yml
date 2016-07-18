@@ -6,7 +6,7 @@ script:
     -project InterviewInSwift.xcodeproj \
     -scheme InterviewInSwift \
     -sdk iphonesimulator \
-    -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' | xcpretty
+    -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest' | xcpretty --test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
