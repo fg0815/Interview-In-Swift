@@ -1,6 +1,6 @@
 language: objective-c
 osx_image: xcode7.3
-xcode_project: InterviewInSwift
+xcode_project: InterviewInSwift.xcodeproj
 xcode_scheme: InterviewInSwift
 
 after_success:
