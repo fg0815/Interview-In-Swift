@@ -13,3 +13,8 @@ The project is still under development
 - The project was built by Xcode 7.3 with Swift 2.2.x
 - The project only runs via tests (command + U) with any iOS simulator as a target
 
+###Solutions covered###
+##LeetCode##
+
+##LintCode##
+
