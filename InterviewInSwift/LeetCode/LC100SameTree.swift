@@ -8,8 +8,14 @@
 
 import Foundation
 
-// Same Tree
-// https://leetcode.com/problems/same-tree/
+/**
+ 100. Same Tree
+ https://leetcode.com/problems/same-tree/
+ 
+ Given two binary trees, write a function to check if they are equal or not.
+ 
+ Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
+ */
 class LC100SameTree: NSObject {
     class func isSameTree(node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
         if node1 == nil && node2 == nil {
