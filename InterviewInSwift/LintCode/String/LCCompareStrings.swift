@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Compare Strings
 // http://www.lintcode.com/en/problem/compare-strings/
 class LCCompareStrings: NSObject {
     /**

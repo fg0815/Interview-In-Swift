@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Unique Paths
+// http://www.lintcode.com/en/problem/unique-paths/
 class LCUniquePaths {
     /**
      * @param n, m: positive integer (1 <= n ,m <= 100)

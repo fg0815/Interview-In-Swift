@@ -8,6 +8,16 @@
 
 import Foundation
 
+/**
+ First Position of Target
+ http://www.lintcode.com/en/problem/first-position-of-target/
+ 
+ For a given sorted array (ascending order) and a target number, find the first index of this number in O(log n) time complexity.
+ 
+ If the target number does not exist in the array, return -1.
+ */
+
+
 class LCFirstPosition: NSObject {
     /**
      * @param nums: The integer array.

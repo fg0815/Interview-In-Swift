@@ -8,6 +8,7 @@
 
 import Foundation
 
+// strStr
 // http://www.lintcode.com/en/problem/strstr/
 class LCStrStr: NSObject {
     /**

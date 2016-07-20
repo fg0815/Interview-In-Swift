@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Search a 2D Matrix
 //http://www.lintcode.com/en/problem/search-a-2d-matrix/
 class LCSearch2DMatrix: NSObject {
     /**

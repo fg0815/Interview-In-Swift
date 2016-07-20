@@ -8,6 +8,8 @@
 
 import Foundation
 
+// Lowest Common Ancestor
+// http://www.lintcode.com/en/problem/lowest-common-ancestor/
 class LCLowestCommonAncestor: NSObject {
     /**
      * @param root: The root of the binary search tree.

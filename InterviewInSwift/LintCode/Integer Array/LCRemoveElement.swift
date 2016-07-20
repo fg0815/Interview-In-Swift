@@ -8,6 +8,7 @@
 
 import Foundation
 
+// Remove Element
 // http://www.lintcode.com/en/problem/remove-element/
 class LCRemoveElement: NSObject {
     /**
