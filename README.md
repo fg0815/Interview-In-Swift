@@ -16,14 +16,23 @@ The project is still under development
 ##Solutions##
 ###LeetCode###
 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
+
 [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
+
 [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
+
 [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+
 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
+
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+
 [100. Same Tree](https://leetcode.com/problems/same-tree/)
+
 [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+
 [244. Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/)
+
 [254. Factor Combinations](https://leetcode.com/problems/factor-combinations/)
 
 [367. Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/)
