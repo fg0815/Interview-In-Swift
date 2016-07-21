@@ -6,12 +6,10 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Insert Node in a Binary Search Tree
 // http://www.lintcode.com/en/problem/insert-node-in-a-binary-search-tree/
 
-class LCInsertTreeNode: NSObject {
+class LCInsertTreeNode {
     /**
      * @param root: The root of the binary search tree.
      * @param node: insert this node into the binary search tree

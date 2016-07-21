@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Lowest Common Ancestor
 // http://www.lintcode.com/en/problem/lowest-common-ancestor/
-class LCLowestCommonAncestor: NSObject {
+class LCLowestCommonAncestor {
     /**
      * @param root: The root of the binary search tree.
      * @param A and B: two nodes in a Binary.

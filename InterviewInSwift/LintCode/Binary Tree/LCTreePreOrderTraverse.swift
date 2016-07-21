@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Binary Tree Preorder Traversal
 // http://www.lintcode.com/en/problem/binary-tree-preorder-traversal
-class LCTreePreOrderTraverse: NSObject {
+class LCTreePreOrderTraverse {
     class func enumerateTreeNode(node: LCTreeNode?, result: Int -> Void) {
         if let current = node {
             result(current.val)
