@@ -6,8 +6,6 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 /**
  First Position of Target
  http://www.lintcode.com/en/problem/first-position-of-target/
@@ -16,9 +14,7 @@ import Foundation
  
  If the target number does not exist in the array, return -1.
  */
-
-
-class LCFirstPosition: NSObject {
+class LCFirstPosition {
     /**
      * @param nums: The integer array.
      * @param target: Target to find.

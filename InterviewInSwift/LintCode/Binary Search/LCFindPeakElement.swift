@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Find Peak Element
 // http://www.lintcode.com/en/problem/find-peak-element/
-class LCFindPeakElement: NSObject {
+class LCFindPeakElement {
     /**
      * @param nums: An integers array.
      * @return: return any of peek positions.

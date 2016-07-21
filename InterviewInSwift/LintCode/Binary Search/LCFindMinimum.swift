@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Find Minimum in Rotated Sorted Array
 // http://www.lintcode.com/en/problem/find-minimum-in-rotated-sorted-array/
-class LCFindMinimum: NSObject {
+class LCFindMinimum {
     /**
      the minimum number in the array
 

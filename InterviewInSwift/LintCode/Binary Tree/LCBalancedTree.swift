@@ -6,12 +6,10 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Balanced Binary Tree
 // http://www.lintcode.com/en/problem/balanced-binary-tree/
 
-class LCBalancedTree: NSObject {
+class LCBalancedTree {
     /**
      * @param root: The root of binary tree.
      * @return: True if this Binary tree is Balanced, or false.

@@ -6,12 +6,11 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
 
 // Validate Binary Search Tree
 // http://www.lintcode.com/en/problem/validate-binary-search-tree/
 
-class LCBSTValidation: NSObject {
+class LCBSTValidation {
     private var lastVal = Int.min
     private var firstNode = true
 
