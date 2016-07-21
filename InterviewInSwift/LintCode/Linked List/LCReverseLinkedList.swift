@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Reverse Linked List
 // http://www.lintcode.com/en/problem/reverse-linked-list/
-class LCReverseLinkedList: NSObject {
+class LCReverseLinkedList {
     /**
      * @param head: The head of linked list.
      * @return: The new head of reversed linked list.

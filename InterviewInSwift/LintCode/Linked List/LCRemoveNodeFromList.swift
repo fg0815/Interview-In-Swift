@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Remove Nth Node From End of List
 // http://www.lintcode.com/en/problem/remove-nth-node-from-end-of-list/
-class LCRemoveNodeFromList: NSObject {
+class LCRemoveNodeFromList {
     /**
      * @param head: The first node of linked list.
      * @param n: An integer.

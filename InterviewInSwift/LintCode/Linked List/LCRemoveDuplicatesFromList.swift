@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Remove Duplicates from Sorted List
 // http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-list/
-class LCRemoveDuplicatesFromList: NSObject {
+class LCRemoveDuplicatesFromList {
     /**
      * @param ListNode head is the head of the linked list
      * @return: ListNode head of linked list

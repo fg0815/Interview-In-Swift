@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Remove Element
 // http://www.lintcode.com/en/problem/remove-element/
-class LCRemoveElement: NSObject {
+class LCRemoveElement {
     /**
      *@param A: A list of integers
      *@param elem: An integer

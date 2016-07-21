@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // O(1) Check Power of 2
 // http://www.lintcode.com/en/problem/o1-check-power-of-2/
-class LCCheckPowerOf2: NSObject {
+class LCCheckPowerOf2 {
     /*
      * @param n: An integer
      * @return: True or false

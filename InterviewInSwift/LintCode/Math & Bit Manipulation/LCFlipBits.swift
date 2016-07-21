@@ -6,12 +6,10 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Flip bits
 // http://www.lintcode.com/en/problem/flip-bits/
 
-class LCFlipBits: NSObject {
+class LCFlipBits {
     /**
      *@param a, b: Two integer
      *return: An integer

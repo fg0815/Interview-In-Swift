@@ -6,8 +6,6 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Two Sum
 // http://www.lintcode.com/en/problem/two-sum/
 
@@ -21,7 +19,7 @@ import Foundation
  
  return [0, 1]
  */
-class LCTwoSum: NSObject {
+class LCTwoSum {
     /*
      * @param numbers : An array of Integer
      * @param target : target = numbers[index1] + numbers[index2]

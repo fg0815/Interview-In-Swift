@@ -6,8 +6,6 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Unique Paths
 // http://www.lintcode.com/en/problem/unique-paths/
 class LCUniquePaths {

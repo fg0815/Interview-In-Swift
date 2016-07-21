@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import UIKit
-
 // Merge Two Sorted Lists
 // http://www.lintcode.com/en/problem/merge-two-sorted-lists/
-class LCMergeTwoLists: NSObject {
+class LCMergeTwoLists {
     class func mergeTwoLists(l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
         var mutableL1: LCLinkedListNode? = l1
         var mutableL2: LCLinkedListNode? = l2

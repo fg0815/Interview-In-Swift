@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Add Two Numbers
 // http://www.lintcode.com/en/problem/add-two-numbers/
-class LCAddTwoNumbers: NSObject {
+class LCAddTwoNumbers {
     class func addTwoNumbers(l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
         var currentL1: LCLinkedListNode? = l1
         var currentL2: LCLinkedListNode? = l2

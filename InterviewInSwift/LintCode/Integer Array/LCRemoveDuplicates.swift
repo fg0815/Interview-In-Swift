@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Remove Duplicates from Sorted Array
 // http://www.lintcode.com/en/problem/remove-duplicates-from-sorted-array/
-class LCRemoveDuplicates: NSObject {
+class LCRemoveDuplicates {
     /**
      * @param A: a array of integers
      * @return : return an integer

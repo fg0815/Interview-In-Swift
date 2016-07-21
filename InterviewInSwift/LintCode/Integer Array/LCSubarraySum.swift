@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Subarray Sum
 // http://www.lintcode.com/en/problem/subarray-sum/
-class LCSubarraySum: NSObject {
+class LCSubarraySum {
     /**
      * @param nums: A list of integers
      * @return: A list of integers includes the index of the first number

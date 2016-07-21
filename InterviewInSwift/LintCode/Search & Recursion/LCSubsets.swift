@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Subsets
 // http://www.lintcode.com/en/problem/subsets/
-class LCSubsets: NSObject {
+class LCSubsets {
     // Non Recursion
     class func subsets(nums: [Int]) -> [[Int]] {
         var result: [[Int]] = []

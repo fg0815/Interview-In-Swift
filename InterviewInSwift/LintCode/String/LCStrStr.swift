@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // strStr
 // http://www.lintcode.com/en/problem/strstr/
-class LCStrStr: NSObject {
+class LCStrStr {
     /**
      * Returns a index to the first occurrence of target in source,
      * or -1  if target is not part of source.

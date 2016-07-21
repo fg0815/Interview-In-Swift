@@ -6,11 +6,9 @@
 //  Copyright © 2016 Core Apps Pty Ltd. All rights reserved.
 //
 
-import Foundation
-
 // Permutations
 // http://www.lintcode.com/en/problem/permutations/
-class LCPermutations: NSObject {
+class LCPermutations {
     /**
      * @param nums: A list of integers.
      * @return: A list of permutations.
