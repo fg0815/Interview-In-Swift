@@ -32,7 +32,7 @@ The project is still under development
 [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)  
 [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)  
 [62. Unique Paths](https://leetcode.com/problems/unique-paths/)  
-[66. Plus One](https://leetcode.com/problems/plus-one/) 
+[66. Plus One](https://leetcode.com/problems/plus-one/)  
 [78. Subsets](https://leetcode.com/problems/subsets/)   
 [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)  
 [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)  
