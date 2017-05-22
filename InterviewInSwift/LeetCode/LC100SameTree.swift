@@ -17,14 +17,14 @@ import Foundation
  Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
  */
 class LC100SameTree: NSObject {
-    class func isSameTree(node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
+    class func isSameTree(_ node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
         if node1 == nil && node2 == nil {
             return true
         } else if node1 == nil || node2 == nil {
             return false
         }
 
-        if let node1 = node1, node2 = node2 {
+        if let node1 = node1, let node2 = node2 {
             if node1.val == node2.val {
                 let left = LC100SameTree.isSameTree(node1.left, node2: node2.left)
                 let right = LC100SameTree.isSameTree(node1.right, node2: node2.right)

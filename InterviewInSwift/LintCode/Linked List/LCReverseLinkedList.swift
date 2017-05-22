@@ -13,7 +13,7 @@ class LCReverseLinkedList {
      * @param head: The head of linked list.
      * @return: The new head of reversed linked list.
      */
-    class func reverse(head: LCLinkedListNode) -> LCLinkedListNode {
+    class func reverse(_ head: LCLinkedListNode) -> LCLinkedListNode {
         var prev: LCLinkedListNode? = nil
         var current: LCLinkedListNode? = head
         while current != nil {

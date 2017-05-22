@@ -10,11 +10,11 @@
 // http://www.lintcode.com/en/problem/subsets/
 class LCSubsets {
     // Non Recursion
-    class func subsets(nums: [Int]) -> [[Int]] {
+    class func subsets(_ nums: [Int]) -> [[Int]] {
         var result: [[Int]] = []
         let n = nums.count
         var sorted = nums
-        sorted.sortInPlace()
+        sorted.sort()
 
         // 1 << n is 2^n
         // each subset equals to an binary integer between 0 .. 2^n - 1

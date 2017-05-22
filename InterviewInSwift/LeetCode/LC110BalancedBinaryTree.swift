@@ -15,7 +15,7 @@
  For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
  */
 class LC110B {
-    class func isBalanced(root: LCTreeNode) -> Bool {
+    class func isBalanced(_ root: LCTreeNode) -> Bool {
         return LCBalancedTree.isBalanced(root)
     }
 }

@@ -11,7 +11,7 @@ import Foundation
 // Valid Perfect Square
 // https://leetcode.com/problems/valid-perfect-square/
 class LC367ValidPerfectSquare: NSObject {
-    class func isPerfectSquare(num: Int) -> Bool {
+    class func isPerfectSquare(_ num: Int) -> Bool {
         var start = 1
         var end = num >> 1 + 1
         

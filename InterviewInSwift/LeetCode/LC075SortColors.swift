@@ -25,7 +25,7 @@
  */
 
 struct LC075SortColors {
-    static func sortColors(inout nums: [Int]) {
+    static func sortColors(_ nums: inout [Int]) {
         var red = -1
         var white = -1
         var blue = -1

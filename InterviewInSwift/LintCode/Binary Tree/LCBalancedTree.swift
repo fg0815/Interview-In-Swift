@@ -14,11 +14,11 @@ class LCBalancedTree {
      * @param root: The root of binary tree.
      * @return: True if this Binary tree is Balanced, or false.
      */
-    class func isBalanced(root: LCTreeNode) -> Bool {
+    class func isBalanced(_ root: LCTreeNode) -> Bool {
         return LCBalancedTree.maxDepth(root) != -1
     }
 
-    private class func maxDepth(root: LCTreeNode?) -> Int {
+    fileprivate class func maxDepth(_ root: LCTreeNode?) -> Int {
         if let node = root {
             let left = LCDepthTree.maxDepth(node.left)
             let right = LCDepthTree.maxDepth(node.right)

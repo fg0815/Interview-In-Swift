@@ -26,7 +26,7 @@ import Foundation
  Given "paper", "title", return true.
  */
 class LC205IsomorphicStrings: NSObject {
-    class func isIsomorphic(source: String, target: String) -> Bool {
+    class func isIsomorphic(_ source: String, target: String) -> Bool {
         var map = [String : String]()
         
         if source.characters.count != target.characters.count {

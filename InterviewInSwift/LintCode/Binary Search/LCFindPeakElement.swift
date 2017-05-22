@@ -13,7 +13,7 @@ class LCFindPeakElement {
      * @param nums: An integers array.
      * @return: return any of peek positions.
      */
-    class func findPeak(nums: [Int]) -> Int {
+    class func findPeak(_ nums: [Int]) -> Int {
         let n = nums.count
         if n == 1 {
             return 0

@@ -28,22 +28,22 @@ class LCTreeLevelTraversalTest: XCTestCase {
      *  ]
      */
     func testLevelOrderBFS() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFS)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfs)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
 
     func testLevelOrderDFS() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.DFS)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.dfs)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
 
     func testLevelOrderBFSWithTwoQueues() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFSWithTwoQueues)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsWithTwoQueues)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
 
     func testLevelOrderBFSQueueWithDummyNode() {
-        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.BFSQueueWithDummyNode)
+        let treeResult1 = LCTreeLevelTraversal.levelOrder(tree1(), methods: TraversalType.bfsQueueWithDummyNode)
         XCTAssertTrue(treeResult1 == expectedTree1())
     }
 

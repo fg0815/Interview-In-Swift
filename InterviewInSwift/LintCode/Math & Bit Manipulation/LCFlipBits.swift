@@ -14,7 +14,7 @@ class LCFlipBits {
      *@param a, b: Two integer
      *return: An integer
      */
-    class func bitSwapRequired(a: Int, b: Int) -> Int {
+    class func bitSwapRequired(_ a: Int, b: Int) -> Int {
         var count = 0
 
         var c = a ^ b

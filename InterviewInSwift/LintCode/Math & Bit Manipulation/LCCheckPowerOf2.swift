@@ -13,7 +13,7 @@ class LCCheckPowerOf2 {
      * @param n: An integer
      * @return: True or false
      */
-    class func checkPowerOf2(n: Int) -> Bool {
+    class func checkPowerOf2(_ n: Int) -> Bool {
         if n <= 0 {
             return false
         }

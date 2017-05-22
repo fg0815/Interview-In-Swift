@@ -15,7 +15,7 @@ class LCInsertTreeNode {
      * @param node: insert this node into the binary search tree
      * @return: The root of the new binary search tree.
      */
-    class func insertNode(root: LCTreeNode?, node: LCTreeNode) -> LCTreeNode? {
+    class func insertNode(_ root: LCTreeNode?, node: LCTreeNode) -> LCTreeNode? {
         if let currentNode = root {
             if currentNode.val > node.val {
                 currentNode.left = LCInsertTreeNode.insertNode(currentNode.left, node: node)

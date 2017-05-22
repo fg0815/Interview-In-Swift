@@ -25,7 +25,7 @@
 
 struct LC006ZigZagConversion {
     // t = O(N), s = O(N)
-    static func convert(string: String, numberOfRows: Int) -> String {
+    static func convert(_ string: String, numberOfRows: Int) -> String {
         return ""
     }
 }

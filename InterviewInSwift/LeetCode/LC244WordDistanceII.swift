@@ -42,7 +42,7 @@ class LC244WordDistanceII: NSObject {
         }
     }
     
-    func shortest(word1: String, word2: String) -> Int {
+    func shortest(_ word1: String, word2: String) -> Int {
         let index1 = map[word1]!
         let index2 = map[word2]!
         

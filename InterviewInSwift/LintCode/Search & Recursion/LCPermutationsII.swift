@@ -11,10 +11,10 @@ import Foundation
 // Permutations II
 // http://www.lintcode.com/en/problem/permutations-ii/
 class LCPermutationsII: NSObject {
-    private var result: [[Int]]
-    private var list: [Int]
-    private var visited: [Int]
-    private var sortedNum: [Int]
+    fileprivate var result: [[Int]]
+    fileprivate var list: [Int]
+    fileprivate var visited: [Int]
+    fileprivate var sortedNum: [Int]
     
     override init() {
         result = []
@@ -24,20 +24,20 @@ class LCPermutationsII: NSObject {
         super.init()
     }
     
-    func permuteUnique(num: [Int]) -> [[Int]] {
+    func permuteUnique(_ num: [Int]) -> [[Int]] {
         if num.count == 0 {
             return result
         }
         
-        sortedNum = num.sort()
-        visited = Array.init(count: num.count, repeatedValue: 0)
+        sortedNum = num.sorted()
+        visited = Array.init(repeating: 0, count: num.count)
         
         helper()
         
         return result
     }
     
-    private func helper() {
+    fileprivate func helper() {
         if list.count == sortedNum.count {
             result.append(list)
             return
@@ -51,7 +51,7 @@ class LCPermutationsII: NSObject {
             visited[i] = 1
             list.append(sortedNum[i])
             helper()
-            list.removeAtIndex(list.count - 1)
+            list.remove(at: list.count - 1)
             visited[i] = 0
         }
     }

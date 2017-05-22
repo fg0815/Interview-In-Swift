@@ -12,7 +12,7 @@ import Foundation
 // Merge two sorted lists
 
 class LKIMergeTwoLists: NSObject {
-    class func mergeTwoLists(l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
+    class func mergeTwoLists(_ l1: LCLinkedListNode, l2: LCLinkedListNode) -> LCLinkedListNode {
         return LCMergeTwoLists.mergeTwoLists(l1, l2: l2)
     }
 }

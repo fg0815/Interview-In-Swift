@@ -9,7 +9,7 @@
 // Binary Tree Preorder Traversal
 // http://www.lintcode.com/en/problem/binary-tree-preorder-traversal
 class LCTreePreOrderTraverse {
-    class func enumerateTreeNode(node: LCTreeNode?, result: Int -> Void) {
+    class func enumerateTreeNode(_ node: LCTreeNode?, result: (Int) -> Void) {
         if let current = node {
             result(current.val)
             enumerateTreeNode(current.left, result: result)

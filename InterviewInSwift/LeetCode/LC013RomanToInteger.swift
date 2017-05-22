@@ -18,10 +18,10 @@
 struct LC013RomanToInteger {
     // O (N)
     // One pass
-    static func romanToInt(s: String) -> Int {
+    static func romanToInt(_ s: String) -> Int {
         var result: Int = 0
         let length: Int = s.characters.count
-        for i in (0...length-1).reverse() {
+        for i in (0...length-1).reversed() {
             let c = s[i]
             switch c {
             case "I":

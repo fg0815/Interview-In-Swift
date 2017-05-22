@@ -10,7 +10,7 @@ import UIKit
 
 class LCLinkedList: NSObject {
 
-    class func linkedList(values: [Int]) -> LCLinkedListNode {
+    class func linkedList(_ values: [Int]) -> LCLinkedListNode {
         let root = LCLinkedListNode.init(val: values[0])
         var current = root
         for i in 1..<values.count {
@@ -30,7 +30,7 @@ class LCLinkedList: NSObject {
 
      - returns: true for the same, otherwise false
      */
-    class func compare(node1: LCLinkedListNode, node2: LCLinkedListNode) -> Bool {
+    class func compare(_ node1: LCLinkedListNode, node2: LCLinkedListNode) -> Bool {
         var current1: LCLinkedListNode? = node1
         var current2: LCLinkedListNode? = node2
 

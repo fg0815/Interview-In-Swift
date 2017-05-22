@@ -16,7 +16,7 @@ class LCCompareStrings: NSObject {
      * @param B : A string includes Upper Case letter
      * @return :  if string A contains all of the characters in B return true else return false
      */
-    class func compareStrings(A: String, B: String) -> Bool {
+    class func compareStrings(_ A: String, B: String) -> Bool {
         var dictionary = [String : Int]()
 
         for character in A.characters {

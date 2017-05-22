@@ -17,7 +17,7 @@ class LCWordLadder: NSObject {
      * @param dict, a set of string
      * @return an integer
      */
-    func ladderLength(start: String, end: String, inout dict: Set<String>) -> Int {
+    func ladderLength(_ start: String, end: String, dict: inout Set<String>) -> Int {
         if dict.count == 0 {
             return 0
         }
@@ -62,7 +62,7 @@ class LCWordLadder: NSObject {
     // get connections with given word.
     // for example, given word = 'hot', dict = {'hot', 'hit', 'hog'}
     // it will return ['hit', 'hog']
-    private func getNextWords(word: String, dict: Set<String>) -> [String] {
+    fileprivate func getNextWords(_ word: String, dict: Set<String>) -> [String] {
         var nextWords: [String] = []
         let charA: Character = "a"
         let charZ: Character = "z"
@@ -73,7 +73,7 @@ class LCWordLadder: NSObject {
                     continue
                 }
 
-                let nextWord = replace(word, index: i, c: Character(UnicodeScalar(c)))
+                let nextWord = replace(word, index: i, c: Character(UnicodeScalar(c)!))
 
                 if dict.contains(nextWord) {
                     nextWords.append(nextWord)
@@ -88,7 +88,7 @@ class LCWordLadder: NSObject {
 
     // replace character of a string at given index to a given character
     // return a new string
-    private func replace(s: String, index: Int, c: Character) -> String {
+    fileprivate func replace(_ s: String, index: Int, c: Character) -> String {
         var characters = Array(s.characters)
         characters[index] = c
         return String(characters)

@@ -12,25 +12,25 @@ import Foundation
 // http://www.lintcode.com/en/problem/binary-tree-level-order-traversal/
 
 enum TraversalType {
-    case BFS
-    case DFS
-    case BFSWithTwoQueues
-    case BFSQueueWithDummyNode
+    case bfs
+    case dfs
+    case bfsWithTwoQueues
+    case bfsQueueWithDummyNode
 }
 
 class LCTreeLevelTraversal: NSObject {
     static let ErrorState = [[-1]]
 
-    class func levelOrder(root: LCTreeNode, methods: TraversalType) -> [[Int]] {
+    class func levelOrder(_ root: LCTreeNode, methods: TraversalType) -> [[Int]] {
         switch methods {
-        case TraversalType.BFS:
+        case TraversalType.bfs:
             return LCTreeLevelTraversal.levelOrderByBFS(root)
-        case TraversalType.DFS:
+        case TraversalType.dfs:
             let treeLevelTraversal = LCTreeLevelTraversal()
             return treeLevelTraversal.levelOrderByDFS(root)
-        case TraversalType.BFSWithTwoQueues:
+        case TraversalType.bfsWithTwoQueues:
             return LCTreeLevelTraversal.levelOrderByBFSWithTwoQueues(root)
-        case TraversalType.BFSQueueWithDummyNode:
+        case TraversalType.bfsQueueWithDummyNode:
             return LCTreeLevelTraversal.levelOrderByBFSQueueWithDummyNode(root)
         }
     }
@@ -39,7 +39,7 @@ class LCTreeLevelTraversal: NSObject {
 
 // BFS solution
 extension LCTreeLevelTraversal {
-    class func levelOrderByBFS(root: LCTreeNode?) -> [[Int]] {
+    class func levelOrderByBFS(_ root: LCTreeNode?) -> [[Int]] {
         var result = [[Int]]()
 
         guard let node = root else {
@@ -76,7 +76,7 @@ extension LCTreeLevelTraversal {
 
 // DFS solution
 extension LCTreeLevelTraversal {
-    func levelOrderByDFS(root: LCTreeNode?) -> [[Int]] {
+    func levelOrderByDFS(_ root: LCTreeNode?) -> [[Int]] {
         var results = [[Int]]()
 
         guard let node = root else {
@@ -98,7 +98,7 @@ extension LCTreeLevelTraversal {
         return results
     }
 
-    private func dfs(root: LCTreeNode?, inout level: [Int], curtLevel: Int, maxLevel: Int) {
+    fileprivate func dfs(_ root: LCTreeNode?, level: inout [Int], curtLevel: Int, maxLevel: Int) {
         if curtLevel > maxLevel {
             return
         }
@@ -120,7 +120,7 @@ extension LCTreeLevelTraversal {
 
 // BFS with two queues
 extension LCTreeLevelTraversal {
-    class func levelOrderByBFSWithTwoQueues(root: LCTreeNode?) -> [[Int]] {
+    class func levelOrderByBFSWithTwoQueues(_ root: LCTreeNode?) -> [[Int]] {
         var results = [[Int]]()
 
         guard let node = root else {
@@ -162,7 +162,7 @@ extension LCTreeLevelTraversal {
 
 // BFS, queue with dummy node
 extension LCTreeLevelTraversal {
-    class func levelOrderByBFSQueueWithDummyNode(root: LCTreeNode?) -> [[Int]] {
+    class func levelOrderByBFSQueueWithDummyNode(_ root: LCTreeNode?) -> [[Int]] {
         var results = [[Int]]()
 
         guard let node = root else {

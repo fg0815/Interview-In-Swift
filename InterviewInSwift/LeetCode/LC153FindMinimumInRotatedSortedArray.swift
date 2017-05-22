@@ -19,7 +19,7 @@
  You may assume no duplicate exists in the array.
  */
 class LC153FindMinimumInRotatedSortedArray {
-    class func findMin(nums: [Int]) -> Int {
+    class func findMin(_ nums: [Int]) -> Int {
         return LCFindMinimum.findMin(nums)
     }
 }

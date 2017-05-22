@@ -17,7 +17,7 @@ class LCDepthTree: NSObject {
         depth = 0
     }
 
-    func helper(node: LCTreeNode?, curtDepth: Int) {
+    func helper(_ node: LCTreeNode?, curtDepth: Int) {
         if let currentNode = node {
             if curtDepth > depth {
                 depth = curtDepth
@@ -28,7 +28,7 @@ class LCDepthTree: NSObject {
         }
     }
 
-    func maxDepthByTraverse(root: LCTreeNode) -> Int {
+    func maxDepthByTraverse(_ root: LCTreeNode) -> Int {
         depth = 0
         helper(root, curtDepth: 1)
 
@@ -37,7 +37,7 @@ class LCDepthTree: NSObject {
 }
 
 extension LCDepthTree {
-    class func maxDepth(root: LCTreeNode?) -> Int {
+    class func maxDepth(_ root: LCTreeNode?) -> Int {
         guard let root = root else {
             return 0
         }

@@ -25,7 +25,7 @@ class LCTwoSum {
      * @param target : target = numbers[index1] + numbers[index2]
      * @return : [index1 + 1, index2 + 1] (index1 < index2)
      */
-    class func twoSum(numbers: [Int], target: Int) -> [Int] {
+    class func twoSum(_ numbers: [Int], target: Int) -> [Int] {
         var map = [Int: Int]()
         
         for i in 0 ..< numbers.count {

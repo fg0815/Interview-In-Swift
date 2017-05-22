@@ -16,7 +16,7 @@ class LCSearch2DMatrix: NSObject {
      * @param target, an integer
      * @return a boolean, indicate whether matrix contains target
      */
-    class func searchMatrix(matrix: [[Int]], target: Int) -> Bool {
+    class func searchMatrix(_ matrix: [[Int]], target: Int) -> Bool {
         if (matrix.count == 0) {
             return false
         }

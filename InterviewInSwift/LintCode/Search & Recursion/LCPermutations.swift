@@ -13,7 +13,7 @@ class LCPermutations {
      * @param nums: A list of integers.
      * @return: A list of permutations.
      */
-    func permute(num: [Int]) -> [[Int]] {
+    func permute(_ num: [Int]) -> [[Int]] {
         var rst: [[Int]] = []
 
         if num.count == 0 {
@@ -25,7 +25,7 @@ class LCPermutations {
         return rst
     }
 
-    private func helper(inout rst: [[Int]], inout list: [Int], num: [Int]) {
+    fileprivate func helper(_ rst: inout [[Int]], list: inout [Int], num: [Int]) {
         if list.count == num.count {
             rst.append(list)
             return
@@ -38,14 +38,14 @@ class LCPermutations {
 
             list.append(num[i])
             helper(&rst, list: &list, num: num)
-            list.removeAtIndex(list.count - 1)
+            list.remove(at: list.count - 1)
         }
     }
 }
 
 // Non-Recursion
 extension LCPermutations {
-    class func permute(nums: [Int]) -> [[Int]] {
+    class func permute(_ nums: [Int]) -> [[Int]] {
         var permutations: [[Int]] = []
 
         if (nums.count == 0) {
@@ -59,7 +59,7 @@ extension LCPermutations {
 
         while stack.count != 0 {
             let last = stack[stack.count - 1]
-            stack.removeAtIndex(stack.count - 1)
+            stack.remove(at: stack.count - 1)
 
             // increase the last number
             var next = -1

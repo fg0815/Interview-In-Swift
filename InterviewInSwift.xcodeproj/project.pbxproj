@@ -781,9 +781,11 @@
 				TargetAttributes = {
 					654C10361D1E9027007F1EA1 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 					654C104A1D1E9027007F1EA1 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 						TestTargetID = 654C10361D1E9027007F1EA1;
 					};
 				};
@@ -1158,6 +1160,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcode";
 				PRODUCT_NAME = InterviewInSwift;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -1170,6 +1173,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcode";
 				PRODUCT_NAME = InterviewInSwift;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1181,6 +1185,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcodeTests";
 				PRODUCT_NAME = InterviewInSwift;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewInSwift.app/InterviewInSwift";
 			};
 			name = Debug;
@@ -1193,6 +1198,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcodeTests";
 				PRODUCT_NAME = InterviewInSwift;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewInSwift.app/InterviewInSwift";
 			};
 			name = Release;

@@ -42,7 +42,7 @@ class LC077CombinationsTest: XCTestCase {
         XCTAssert(LC077Combinations.combineRecursion(input[0], k: input[1]) == expected)
     }
     
-    func comparehelper(inputA: [[Int]], inputB: [[Int]]) -> Bool {
+    func comparehelper(_ inputA: [[Int]], inputB: [[Int]]) -> Bool {
         if inputA.count != inputB.count {
             return false
         }

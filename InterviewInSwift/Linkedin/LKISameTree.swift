@@ -11,7 +11,7 @@ import Foundation
 // Refer to `LC100SameTree`
 // Same tree, mirror tree
 class LKISameTree: NSObject {
-    class func isSameTree(node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
+    class func isSameTree(_ node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
         return LC100SameTree.isSameTree(node1, node2: node2)
     }
 }

@@ -16,7 +16,7 @@ class LCFindMinimum {
 
      - returns: the minimum number in the array
      */
-    class func findMin(nums: [Int]) -> Int {
+    class func findMin(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return -1
         }

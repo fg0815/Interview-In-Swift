@@ -14,7 +14,7 @@ class LCSubarraySum {
      * @return: A list of integers includes the index of the first number
      *          and the index of the last number
      */
-    class func subarraySum(nums: [Int]) -> [Int] {
+    class func subarraySum(_ nums: [Int]) -> [Int] {
         let len = nums.count
         var ans = [Int]()
         var map = [Int : Int]()

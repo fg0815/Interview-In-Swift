@@ -11,10 +11,10 @@
 // http://www.lintcode.com/en/problem/validate-binary-search-tree/
 
 class LCBSTValidation {
-    private var lastVal = Int.min
-    private var firstNode = true
+    fileprivate var lastVal = Int.min
+    fileprivate var firstNode = true
 
-    func isValidBST(root: LCTreeNode?) -> Bool {
+    func isValidBST(_ root: LCTreeNode?) -> Bool {
         if let node = root {
             if !isValidBST(node.left) {
                 return false

@@ -17,8 +17,8 @@ class LCTreeNodeHelper: NSObject {
 
      - returns: true if two nodes are the same, otherwise return false
      */
-    class func compare(node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
-        if let currentNode1 = node1, currentNode2 = node2 {
+    class func compare(_ node1: LCTreeNode?, node2: LCTreeNode?) -> Bool {
+        if let currentNode1 = node1, let currentNode2 = node2 {
             if currentNode1.val != currentNode2.val {
                 return false
             } else {
@@ -54,8 +54,8 @@ class LCTreeNodeHelper: NSObject {
 
      - returns: `LCTreeNode` object
      */
-    class func createTreeNode(nodesString: String) -> LCTreeNode {
-        let nodes = nodesString.componentsSeparatedByString(",")
+    class func createTreeNode(_ nodesString: String) -> LCTreeNode {
+        let nodes = nodesString.components(separatedBy: ",")
 
         var queue: [LCTreeNode] = []
         let root = LCTreeNode.init(val: Int(nodes[0])!)
@@ -86,7 +86,7 @@ class LCTreeNodeHelper: NSObject {
         return root
     }
 
-    class func treeNode(root: LCTreeNode, value: Int) -> LCTreeNode? {
+    class func treeNode(_ root: LCTreeNode, value: Int) -> LCTreeNode? {
         if root.val == value {
             return root
         }

@@ -13,7 +13,7 @@ class LCRemoveDuplicates {
      * @param A: a array of integers
      * @return : return an integer
      */
-    class func removeDuplicates(nums: [Int]) -> Int {
+    class func removeDuplicates(_ nums: [Int]) -> Int {
         if nums.count == 0 {
             return 0
         }
