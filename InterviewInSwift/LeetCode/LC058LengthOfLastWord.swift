@@ -24,7 +24,7 @@
  */
 
 struct LC058LengthOfLastWord {
-    static func lengthOfLastWord(string: String) -> Int {
+    static func lengthOfLastWord(_ string: String) -> Int {
         var length = 0
         var i = 0
         while i < string.characters.count {

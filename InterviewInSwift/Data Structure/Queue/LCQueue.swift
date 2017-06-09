@@ -9,9 +9,9 @@
 import Foundation
 
 class LCQueue<T> {
-    private var front: LCQueueItem<T>
-    private var back: LCQueueItem<T>
-    private var count: Int
+    fileprivate var front: LCQueueItem<T>
+    fileprivate var back: LCQueueItem<T>
+    fileprivate var count: Int
 
     init() {
         back = LCQueueItem(newValue: nil)
@@ -24,7 +24,7 @@ class LCQueue<T> {
 
      - parameter value: new value
      */
-    func enqueue(value: T?) {
+    func enqueue(_ value: T?) {
         back.next = LCQueueItem(newValue: value)
         back = back.next!
         count += 1

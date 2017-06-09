@@ -11,20 +11,20 @@ import UIKit
 // Search Range in Binary Search Tree
 // http://www.lintcode.com/en/problem/search-range-in-binary-search-tree/
 class LCBSTSearchRange: NSObject {
-    private var result: [Int]!
+    fileprivate var result: [Int]!
 
     /**
      * @param root: The root of the binary search tree.
      * @param k1 and k2: range k1 to k2.
      * @return: Return all keys that k1<=key<=k2 in increasing order.
      */
-    func searchRange(root: LCTreeNode, k1: Int, k2: Int) -> [Int] {
+    func searchRange(_ root: LCTreeNode, k1: Int, k2: Int) -> [Int] {
         result = []
         helper(root, k1: k1, k2: k2)
         return result
     }
 
-    private func helper(root: LCTreeNode?, k1: Int, k2: Int) {
+    fileprivate func helper(_ root: LCTreeNode?, k1: Int, k2: Int) {
         if let node = root {
             if node.val > k1 {
                 helper(node.left, k1: k1, k2: k2)

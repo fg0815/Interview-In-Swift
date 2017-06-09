@@ -12,7 +12,7 @@ import Foundation
 
 // validate is a binary search tree is legit
 class LKIValidBST: NSObject {
-    class func isValidBST(root: LCTreeNode?) -> Bool {
+    class func isValidBST(_ root: LCTreeNode?) -> Bool {
         let validator = LCBSTValidation()
         return validator.isValidBST(root)
     }

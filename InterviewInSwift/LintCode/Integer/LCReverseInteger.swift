@@ -20,7 +20,7 @@
  */
 
 struct LCReverseInteger {
-    static func reverseInteger(num: Int) -> Int {
+    static func reverseInteger(_ num: Int) -> Int {
         var num = num;
         var reversed = 0
         

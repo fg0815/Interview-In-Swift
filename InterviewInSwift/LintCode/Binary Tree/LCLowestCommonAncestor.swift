@@ -14,7 +14,7 @@ class LCLowestCommonAncestor {
      * @param A and B: two nodes in a Binary.
      * @return: Return the least common ancestor(LCA) of the two nodes.
      */
-    class func lowestCommonAncestor(root: LCTreeNode?, node1: LCTreeNode, node2: LCTreeNode) -> LCTreeNode? {
+    class func lowestCommonAncestor(_ root: LCTreeNode?, node1: LCTreeNode, node2: LCTreeNode) -> LCTreeNode? {
         guard let root = root else {
             return nil
         }

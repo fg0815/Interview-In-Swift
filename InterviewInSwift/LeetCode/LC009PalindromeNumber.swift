@@ -24,7 +24,7 @@
  */
 
 struct LC009PalindromeNumber {
-    static func isPalindrome(num: Int) -> Bool {
+    static func isPalindrome(_ num: Int) -> Bool {
         var palindromeNum = 0
         var tmp = num
         while tmp > 0 {

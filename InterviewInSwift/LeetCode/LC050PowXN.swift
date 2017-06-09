@@ -16,7 +16,7 @@
  
  */
 struct LC050PowXN {
-    static func myPow(x: Double, n: Int) -> Double {
+    static func myPow(_ x: Double, n: Int) -> Double {
         var x = x
         var n = n
         

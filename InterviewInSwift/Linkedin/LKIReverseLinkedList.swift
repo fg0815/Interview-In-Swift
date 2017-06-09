@@ -12,7 +12,7 @@ import Foundation
 
 // Refer to `LCReverseLinkedList`
 class LKIReverseLinkedList: NSObject {
-    class func reverse(head: LCLinkedListNode) -> LCLinkedListNode {
+    class func reverse(_ head: LCLinkedListNode) -> LCLinkedListNode {
         return LCReverseLinkedList.reverse(head)
     }
 }

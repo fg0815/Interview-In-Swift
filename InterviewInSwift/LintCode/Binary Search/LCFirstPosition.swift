@@ -20,7 +20,7 @@ class LCFirstPosition {
      * @param target: Target to find.
      * @return: The first position of target. Position starts from 0.
      */
-    class func binarySearch(nums: [Int], target: Int) -> Int {
+    class func binarySearch(_ nums: [Int], target: Int) -> Int {
         if nums.count == 0 {
             return -1
         }

@@ -14,7 +14,7 @@ class LCRemoveElement {
      *@param elem: An integer
      *@return: The new length after remove
      */
-    class func removeElement(A: [Int], elem: Int) -> Int {
+    class func removeElement(_ A: [Int], elem: Int) -> Int {
         var mutableA = A
 
         var i = 0

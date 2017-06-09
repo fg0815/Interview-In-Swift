@@ -14,7 +14,7 @@ class LCRemoveNodeFromList {
      * @param n: An integer.
      * @return: The head of linked list.
      */
-    class func removeNthFromEnd(head: LCLinkedListNode, n: Int) -> LCLinkedListNode? {
+    class func removeNthFromEnd(_ head: LCLinkedListNode, n: Int) -> LCLinkedListNode? {
         if n <= 0 {
             return nil
         }

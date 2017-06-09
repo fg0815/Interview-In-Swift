@@ -27,7 +27,7 @@ class LC022GenerateParenthesesTest: XCTestCase {
         XCTAssert(compareUnordered(expected, array2: LC022GenerateParentheses.generateParenthesis(input)))
     }
     
-    func compareUnordered(array1: [String], array2: [String]) -> Bool {
+    func compareUnordered(_ array1: [String], array2: [String]) -> Bool {
         if array1.count != array2.count {
             return false
         }

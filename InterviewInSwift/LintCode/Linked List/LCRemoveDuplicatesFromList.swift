@@ -13,7 +13,7 @@ class LCRemoveDuplicatesFromList {
      * @param ListNode head is the head of the linked list
      * @return: ListNode head of linked list
      */
-    class func deleteDuplicates(head: LCLinkedListNode) -> LCLinkedListNode {
+    class func deleteDuplicates(_ head: LCLinkedListNode) -> LCLinkedListNode {
         var node = head
 
         while node.next != nil {

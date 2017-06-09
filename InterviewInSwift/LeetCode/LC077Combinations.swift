@@ -25,7 +25,7 @@
  ]
  */
 struct LC077Combinations {
-    static func combine(n: Int, k: Int) -> [[Int]] {
+    static func combine(_ n: Int, k: Int) -> [[Int]] {
         var queue: [[Int]] = []
         var summary: [[Int]] = []
         for i in 1...n {
@@ -49,7 +49,7 @@ struct LC077Combinations {
         }
         return summary
     }
-    static func combineRecursionHelper(inout res: [[Int]], inout tmp: [Int], start: Int, num: Int, n: Int, k: Int) {
+    static func combineRecursionHelper(_ res: inout [[Int]], tmp: inout [Int], start: Int, num: Int, n: Int, k: Int) {
         if num == k {
             res.append(tmp)
             return
@@ -64,7 +64,7 @@ struct LC077Combinations {
 
 // Recursion solution
 extension LC077Combinations {
-    static func combineRecursion(n: Int, k: Int) -> [[Int]] {
+    static func combineRecursion(_ n: Int, k: Int) -> [[Int]] {
         var res: [[Int]] = []
         if n < k {
             return res

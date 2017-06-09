@@ -19,7 +19,7 @@
 
  */
 struct LC008StringToIntegerAtoi {
-    static func atoi(string: String) -> Int {
+    static func atoi(_ string: String) -> Int {
         var positive = true
         var base = 0
         for char in string.characters {

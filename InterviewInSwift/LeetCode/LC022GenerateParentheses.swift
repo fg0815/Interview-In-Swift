@@ -24,13 +24,13 @@
  */
 
 class LC022GenerateParentheses {
-    class func generateParenthesis(n: Int) -> [String] {
+    class func generateParenthesis(_ n: Int) -> [String] {
         var result: [String] = []
         helper(&result, str: "", n: n, m: 0)
         return result
     }
     
-    class func helper(inout array: [String], str: String, n: Int, m: Int) {
+    class func helper(_ array: inout [String], str: String, n: Int, m: Int) {
         if m == 0 && n == 0 {
             array.append(str)
             return

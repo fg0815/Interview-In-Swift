@@ -24,7 +24,7 @@
  Your solution should be in logarithmic complexity.
  */
 class LC162FindPeakElement {
-    class func findPeak(nums: [Int]) -> Int {
+    class func findPeak(_ nums: [Int]) -> Int {
         return LCFindPeakElement.findPeak(nums)
     }
 }

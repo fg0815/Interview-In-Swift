@@ -29,7 +29,7 @@
  Binary tree [1,2,3], return false.
  */
 class LC098ValidateBinarySearchTree {
-    class func isValidBST(root: LCTreeNode) -> Bool {
+    class func isValidBST(_ root: LCTreeNode) -> Bool {
         let validation = LCBSTValidation()
         return validation.isValidBST(root)
     }

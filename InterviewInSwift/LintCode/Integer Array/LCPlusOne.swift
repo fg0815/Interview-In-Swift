@@ -27,7 +27,7 @@ struct LCPlusOne {
      
      - returns: the result
      */
-    static func plusOne(digits: [Int]) -> [Int] {
+    static func plusOne(_ digits: [Int]) -> [Int] {
         var digits = digits
         var carries = 1
         var index = digits.count - 1;

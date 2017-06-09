@@ -16,7 +16,7 @@ class LCAnagrams: NSObject {
      * @param stringB: The second string
      * @return true or false
      */
-    class func anagram(stringA: String, stringB: String) -> Bool {
+    class func anagram(_ stringA: String, stringB: String) -> Bool {
         if stringA.characters.count != stringB.characters.count {
             return false
         }

@@ -15,12 +15,12 @@ class LCStrStr {
      * @param source string to be scanned.
      * @param target string containing the sequence of characters to match.
      */
-    class func strStr(source: String, target: String) -> Int {
+    class func strStr(_ source: String, target: String) -> Int {
         for i in 0..<source.characters.count - target.characters.count + 1 {
             var count = 0
             for j in 0..<target.characters.count {
                 count = j
-                if source[source.startIndex.advancedBy(i+j)] != target[target.startIndex.advancedBy(j)] {
+                if source[source.characters.index(source.startIndex, offsetBy: i+j)] != target[target.characters.index(target.startIndex, offsetBy: j)] {
                     break
                 }
             }

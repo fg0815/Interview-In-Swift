@@ -12,7 +12,7 @@ import Foundation
 // Determine whether a number has an integer square root
 
 class LKIValidPerfectSquare: NSObject {
-    class func isPerfectSquare(num: Int) -> Bool {
+    class func isPerfectSquare(_ num: Int) -> Bool {
         return LC367ValidPerfectSquare.isPerfectSquare(num)
     }
 }

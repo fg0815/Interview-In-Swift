@@ -17,7 +17,7 @@
  Example2: x = -123, return -321
  */
 struct LC007ReverseInteger {
-    static func reverseInteger(num: Int) -> Int {
+    static func reverseInteger(_ num: Int) -> Int {
         return LCReverseInteger.reverseInteger(num)
     }
 }

@@ -13,12 +13,12 @@ class LCUniquePaths {
      * @param n, m: positive integer (1 <= n ,m <= 100)
      * @return an integer
      */
-    class func uniquePaths(m: Int, n: Int) -> Int {
+    class func uniquePaths(_ m: Int, n: Int) -> Int {
         if m == 0 || n == 0 {
             return 0
         }
 
-        var sum = Array(count: m, repeatedValue: Array(count: n, repeatedValue: 0))
+        var sum = Array(repeating: Array(repeating: 0, count: n), count: m)
 
         for i in 0..<m {
             sum[i][0] = 1
