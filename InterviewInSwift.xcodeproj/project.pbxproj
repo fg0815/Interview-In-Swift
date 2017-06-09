@@ -220,6 +220,10 @@
 		65ECCF301D3C8F7B00D0307C /* LC050PowXNTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF2F1D3C8F7B00D0307C /* LC050PowXNTest.swift */; };
 		65ECCF311D3C908800D0307C /* LC050PowXN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */; };
 		65ECCF331D3C933200D0307C /* LC006ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ECCF321D3C933200D0307C /* LC006ZigZagConversion.swift */; };
+		DC0CA1231EEA26A40066A245 /* PrintTreeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CA1221EEA26A40066A245 /* PrintTreeTest.swift */; };
+		DC0CA1261EEA26BA0066A245 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CA1251EEA26BA0066A245 /* TreeNode.swift */; };
+		DC0CA1291EEA26C90066A245 /* PrintTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CA1281EEA26C90066A245 /* PrintTree.swift */; };
+		DC0CA12B1EEA28BB0066A245 /* TestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0CA12A1EEA28BB0066A245 /* TestUtilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -247,7 +251,7 @@
 		650CDDFA1D41710A0013A50D /* LC077CombinationsTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC077CombinationsTest.swift; sourceTree = "<group>"; };
 		65101C951D3D861E00D08F9E /* LC008StringToIntegerAtoi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC008StringToIntegerAtoi.swift; sourceTree = "<group>"; };
 		654C10371D1E9027007F1EA1 /* InterviewInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterviewInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		654C104B1D1E9027007F1EA1 /* InterviewInSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewInSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654C104B1D1E9027007F1EA1 /* InterviewInSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterviewInSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AF671F1D3DE4210097566D /* Character+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Character+Extensions.swift"; sourceTree = "<group>"; };
 		65AF67371D3E0B5A0097566D /* LC008StringToIntegerAtoiTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC008StringToIntegerAtoiTest.swift; sourceTree = "<group>"; };
 		65AF673C1D3E0F000097566D /* LC009PalindromeNumberTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC009PalindromeNumberTest.swift; sourceTree = "<group>"; };
@@ -377,6 +381,10 @@
 		65ECCF2D1D3C8E9B00D0307C /* LC050PowXN.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC050PowXN.swift; sourceTree = "<group>"; };
 		65ECCF2F1D3C8F7B00D0307C /* LC050PowXNTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC050PowXNTest.swift; sourceTree = "<group>"; };
 		65ECCF321D3C933200D0307C /* LC006ZigZagConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LC006ZigZagConversion.swift; sourceTree = "<group>"; };
+		DC0CA1221EEA26A40066A245 /* PrintTreeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintTreeTest.swift; sourceTree = "<group>"; };
+		DC0CA1251EEA26BA0066A245 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		DC0CA1281EEA26C90066A245 /* PrintTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintTree.swift; sourceTree = "<group>"; };
+		DC0CA12A1EEA28BB0066A245 /* TestUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUtilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,7 +418,7 @@
 			isa = PBXGroup;
 			children = (
 				654C10371D1E9027007F1EA1 /* InterviewInSwift.app */,
-				654C104B1D1E9027007F1EA1 /* InterviewInSwift.xctest */,
+				654C104B1D1E9027007F1EA1 /* InterviewInSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -420,6 +428,7 @@
 			children = (
 				65ECCEF91D38584500D0307C /* Common */,
 				65ECCDF41D350BD400D0307C /* Data Structure */,
+				DC0CA1271EEA26C90066A245 /* F */,
 				65ECCEC01D35206600D0307C /* LeetCode */,
 				65ECCEB21D35109700D0307C /* Linkedin */,
 				65ECCDF81D350BD400D0307C /* LintCode */,
@@ -432,6 +441,7 @@
 		65ECCDF41D350BD400D0307C /* Data Structure */ = {
 			isa = PBXGroup;
 			children = (
+				DC0CA1241EEA26BA0066A245 /* Tree */,
 				65ECCDF51D350BD400D0307C /* Queue */,
 			);
 			path = "Data Structure";
@@ -575,9 +585,11 @@
 		65ECCE721D350BEC00D0307C /* InterviewInSwiftTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC0CA1211EEA26A40066A245 /* F */,
 				65ECCEC41D35226E00D0307C /* LeetCode */,
 				65ECCE741D350BEC00D0307C /* LintCode */,
 				65ECCE731D350BEC00D0307C /* Info.plist */,
+				DC0CA12A1EEA28BB0066A245 /* TestUtilities.swift */,
 			);
 			path = InterviewInSwiftTests;
 			sourceTree = "<group>";
@@ -731,6 +743,30 @@
 			path = Integer;
 			sourceTree = "<group>";
 		};
+		DC0CA1211EEA26A40066A245 /* F */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CA1221EEA26A40066A245 /* PrintTreeTest.swift */,
+			);
+			path = F;
+			sourceTree = "<group>";
+		};
+		DC0CA1241EEA26BA0066A245 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CA1251EEA26BA0066A245 /* TreeNode.swift */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		DC0CA1271EEA26C90066A245 /* F */ = {
+			isa = PBXGroup;
+			children = (
+				DC0CA1281EEA26C90066A245 /* PrintTree.swift */,
+			);
+			path = F;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -766,7 +802,7 @@
 			);
 			name = InterviewInSwiftTests;
 			productName = "swift-lintcodeTests";
-			productReference = 654C104B1D1E9027007F1EA1 /* InterviewInSwift.xctest */;
+			productReference = 654C104B1D1E9027007F1EA1 /* InterviewInSwiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -861,11 +897,13 @@
 				650CDDEC1D40CF6A0013A50D /* LC078Subsets.swift in Sources */,
 				65AF67601D4021F60097566D /* LC162FindPeakElement.swift in Sources */,
 				65AF67471D3EC6720097566D /* LC014LongestCommonPrefix.swift in Sources */,
+				DC0CA1291EEA26C90066A245 /* PrintTree.swift in Sources */,
 				65ECCE581D350BD400D0307C /* LCRemoveNodeFromList.swift in Sources */,
 				65ECCEF11D37A96000D0307C /* LCPermutationsII.swift in Sources */,
 				650CDDF41D40E0B20013A50D /* LC075SortColors.swift in Sources */,
 				650CDDF01D40D26B0013A50D /* LC047PermutationsII.swift in Sources */,
 				65ECCE3A1D350BD400D0307C /* LCBSTSearchRange.swift in Sources */,
+				DC0CA1261EEA26BA0066A245 /* TreeNode.swift in Sources */,
 				65ECCEE81D374FDB00D0307C /* LC244WordDistanceII.swift in Sources */,
 				65ECCE401D350BD400D0307C /* LCInsertTreeNode.swift in Sources */,
 				65ECCEC21D35209D00D0307C /* LC100SameTree.swift in Sources */,
@@ -951,9 +989,11 @@
 				650CDDFB1D41710A0013A50D /* LC077CombinationsTest.swift in Sources */,
 				65ECCE4F1D350BD400D0307C /* LCLinkedList.swift in Sources */,
 				65ECCEB01D350BEC00D0307C /* LCUniquePathsTest.swift in Sources */,
+				DC0CA12B1EEA28BB0066A245 /* TestUtilities.swift in Sources */,
 				65ECCE4B1D350BD400D0307C /* LCRemoveElement.swift in Sources */,
 				65AF67731D4083CC0097566D /* LC094BinaryTreeInorderTraversal.swift in Sources */,
 				65ECCE941D350BEC00D0307C /* LCAddTwoNumbersTest.swift in Sources */,
+				DC0CA1231EEA26A40066A245 /* PrintTreeTest.swift in Sources */,
 				65ECCE631D350BD400D0307C /* LCPermutations.swift in Sources */,
 				65ECCE9A1D350BEC00D0307C /* LCCompareStringsTest.swift in Sources */,
 				65AF67591D4019F60097566D /* LC022GenerateParenthesesTest.swift in Sources */,
@@ -1184,7 +1224,7 @@
 				INFOPLIST_FILE = InterviewInSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcodeTests";
-				PRODUCT_NAME = InterviewInSwift;
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewInSwift.app/InterviewInSwift";
 			};
@@ -1197,7 +1237,7 @@
 				INFOPLIST_FILE = InterviewInSwiftTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.coreapps.swift-lintcodeTests";
-				PRODUCT_NAME = InterviewInSwift;
+				PRODUCT_NAME = "${TARGET_NAME}";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InterviewInSwift.app/InterviewInSwift";
 			};
